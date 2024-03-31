@@ -143,7 +143,12 @@ W1,W2  এবং b এর মান বের করবো । অর্থা�
 To determine the perceptron value the mathematical formula is, 
 ∑wi*xi = x1*w1 + x2*w2 +…wn*xn
 Y = f(∑wi*xi + b).
+
+<br>
+
 ![Alt text](image-10.png)
+
+<br>
 Now, replace W1 = A, W2 = B , b = c and X1 =x , Y1 = y we get a linear equation. Then, we make a
 figure, 	in the x-axis we give IQ and in the y-axis we give CGPA then we draw a line by linear Programming . 
 আমরা যেহেতু W1,W2  এবং b এর মান জানি নতুন কোন  input জন্য এর রেখার ঐ পাশে হলে বা positive হলে সেই নতুন student টি placement হওয়ার সম্ভবনা আছে । আর negative হলে এর তার কোন placemnet হওয়ার সম্ভবনা নেই । 
