@@ -43,7 +43,7 @@ An artificial neuron is a mathematical function based on a model of biological n
 ![Alt text](image-3.png)
 
 
-### Perceptron:
+# Perceptron:
 
 Perceptron was introduced by Frank Rosenblatt in 1957. He proposed a Perceptron learning rule based on the original MCP neuron. A Perceptron is an algorithm for supervised learning of binary classifiers. This algorithm enables neurons to learn and process elements in the training set one at a time.
 
@@ -63,7 +63,7 @@ Perceptron was introduced by Frank Rosenblatt in 1957. He proposed a Perceptron 
 				Fig: (b) Multi layer Perceptron
 
 
-### Basic Components of Perceptron:
+# Basic Components of Perceptron:
 
 Perceptron is a type of artificial neural network, which is a fundamental concept in deep learning. The basic components of a perceptron are:
 
@@ -86,7 +86,7 @@ Overall, the perceptron is a simple yet powerful algorithm that can be used to p
 **Note:** `Supervised Learning is a type of Machine Learning used to learn models from labeled training data. It enables output prediction for future or unseen data.`
 
 
-### Activation Function: 
+# Activation Function: 
 
 #### Step Function: 
 In Mathematics, a step function (also called a staircase function) is defined as a piecewise constant function that has only a finite number of pieces. In other words, a function on the real numbers can be described as a finite linear combination of indicator functions of given intervals.
