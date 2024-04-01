@@ -53,6 +53,8 @@ For, 2x + 3y + 5 =0 line,
 
 <br>
 For, -2x + 3y -5 =0 line,
+<br>
+
 ![Alt text](image-14.png)
 
 # Example: 
