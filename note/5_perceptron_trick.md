@@ -67,11 +67,13 @@ Step to follow to transform the line given below:
 ![Alt text](image-16.png)
 
 
-(4,5) point টা red line এর +ve region এ আসে, কিন্তু সঠিক orientation এর জন্য একে (2x+3y+5=0) এর  negative region এ নিয়ে আসবে হবে । তাই আমরা প্রথমে base line(2x+3y+5=0) এর সহগ গুলো লিখে (2,3,5) এর নিচে সেই (4,5)এর সাথে 1 add করবো (4,5,1) then subtraction করবো । 
-            2 	 3 	 5 
-       (-)  4	 5	 1 
-—---------------------------------------
-	        -2	-3	4
+(4,5) point টা red line এর +ve region এ আসে, কিন্তু সঠিক orientation এর জন্য একে (2x+3y+5=0) এর  negative region এ নিয়ে আসবে হবে । তাই আমরা প্রথমে base line(2x+3y+5=0) এর সহগ গুলো লিখে (2,3,5) এর নিচে সেই (4,5)এর সাথে 1 add করবো (4,5,1) then subtraction করবো ।  <br>
+2 	 3 	 5 <br>
+(-)  4	 5	 1  <br>
+—--------------------------------------- <br>
+-2	-3	4 
+
+<br>
 
 New equation, -2x -2y + 4 = 0
 
