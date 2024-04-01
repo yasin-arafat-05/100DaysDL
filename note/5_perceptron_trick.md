@@ -4,20 +4,24 @@
 ![Alt text](image-11.png)
 
 In, X-axis we have cgpa.
+<br>
 In, Y-axis we have iq.
+<br>
 Blue dot  -> Placement isn't done.
+<br>
 Green -> Placement done.
+<br>
 
 এখন, নতুন কোন  value এর জন্য ওই student এর placement  হয়েছে কি না, তা জানার জন্য জন্য ডেটা গুলো কে plot করে একটা straight line  বের করবো যার ডান পাশে কোন বিন্দু থাকলে তার placement হয়েছে আর বাম পাশে থাকলে তার placement হয়নি । 
 
+<br>
  এখন এই straight line  টা কিভাবে বের করবো (the value of A, B and C) এর জন্য আমারা Perception Trick শিখবো । 
-
 As the perceptron model is like binary classification that’s why we call the perceptron a binary classifier.
 
 ![Alt text](image-12.png)
 
 আমরা প্রথমে একটা লাইন নিব randomly,  উপরের চিত্রে x-axis এর -2 and -1 এর মাঝের লাইন টা নিয়েছি । তারপর x-axis এ  -1 উপর যে point  টা আছে তাকে  ask করবো তুমি কি তোমার সঠিক জায়গায় আছো ??? তোমার কি placement  হবে ???  <br>
-Ans: no . 
+Ans: no . <br>
 তাইলে, আমরা A,B,C এর ভ্যালু change করে লাইন টাকে ওই  point এর ঐ পাশে দিয়ে নিয়ে new line make করতে হবে (যেইটা, x-axis এ  ০ এর উপর দিয়ে দিয়ে গিয়েছে । এইভাবে অন্য সব  point গুলোকে লাইনের equation    বসিয়ে সবচেয়ে best fit লাইনটা বের করতে হবে ।  
 <br>
 
@@ -67,7 +71,6 @@ Step to follow to transform the line given below:
 ![Alt text](image-16.png)
 
 
-<<<<<<< HEAD
 (4,5) point টা red line এর +ve region এ আসে, কিন্তু সঠিক orientation এর জন্য একে (2x+3y+5=0) এর  negative region এ নিয়ে আসবে হবে । তাই আমরা প্রথমে base line(2x+3y+5=0) এর সহগ গুলো লিখে (2,3,5) এর নিচে সেই (4,5)এর সাথে 1 add করবো (4,5,1) then subtraction করবো ।  <br>
 2 	 3 	 5 <br>
 (-)  4	 5	 1  <br>
@@ -75,14 +78,6 @@ Step to follow to transform the line given below:
 -2	-3	4 
 
 <br>
-=======
-(4,5) point টা red line এর +ve region এ আসে, কিন্তু সঠিক orientation এর জন্য একে (2x+3y+5=0) এর  negative region এ নিয়ে আসবে হবে । তাই আমরা প্রথমে base line(2x+3y+5=0) এর সহগ গুলো লিখে (2,3,5) এর নিচে সেই (4,5)এর সাথে 1 add করবো (4,5,1) then subtraction করবো । 
-            2 	 3 	 5 
-       (-)  4	 5	 1 
-—---------------------------------------
-	        -2	-3	4
->>>>>>> 5b585f9f89ca911cf250ed7192bdbf47cc126eea
-
 New equation, -2x -2y + 4 = 0
 
 Similarly , positive region এ নিয়ে যেতে হলে আমরা একে + করবো । 
