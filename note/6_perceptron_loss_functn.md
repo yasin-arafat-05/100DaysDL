@@ -18,7 +18,7 @@
 The loss function is a method of evaluating how well your machine learning algorithm models your featured data set. In other words, loss functions are a measurement of how good your model is in terms of predicting the expected outcome.
 
 ### What is loss function: 
-Although there are different types of loss functions, fundamentally, they all operate by quantifying the difference between a model's predictions and the actual target value in the dataset. The official term for this numerical quantification is the prediction error. The learning algorithm and mechanisms in a machine learning model are optimized to minimize the prediction error, so this means that after a calculation of the value for the loss function, which is determined by the prediction error, the learning algorithm leverages this information to conduct weight and parameter updates which in effect during the next training pass leads to a lower prediction error.
+Although there are different types of loss functions, fundamentally, they all operate by quantifying the difference between a **model's predictions** and the **actual target** value in the dataset. The official term for this numerical quantification is the **prediction error**. The learning algorithm and mechanisms in a machine learning model are optimized to minimize the prediction error, so this means that after a calculation of the value for the loss function, which is determined by the prediction error, the learning algorithm leverages this information to conduct weight and parameter updates which in effect during the next training pass leads to a lower prediction error.
 
 
 ![Alt text](image-21.png)
