@@ -5,11 +5,11 @@
 
 ![Alt text](image-19.png)
 
-1st problem) এক্ষেত্রে দুইটা লাইন ঐ ঠিক। কিন্তু কার ভ্যালু কত  accurate বা কোনটা better line  তা perceptron trick quantify করতে পারে না । 
+- 1st problem) এক্ষেত্রে দুইটা লাইন ঐ ঠিক। কিন্তু কার ভ্যালু কত  accurate বা কোনটা better line  তা perceptron trick quantify করতে পারে না । 
 
 ![Alt text](image-20.png)
 
-এক্ষেত্রে সমস্যা হচ্ছে, আমরা যেই ১০০০ বার লুপ ঘুরাবো সেই ১০০০ বার  same point select হয় । যদিও এর সম্ভবনা খুব কম । 
+- problem 2) এক্ষেত্রে সমস্যা হচ্ছে, আমরা যেই ১০০০ বার লুপ ঘুরাবো সেই ১০০০ বার  same point select হয় । যদিও এর সম্ভবনা খুব কম । 
 
 এখন সবচেয়ে ভালো trick হলো perciption trick ব্যবহার না করে lost function ব্যবহার করা । সহগ গুলোর মান বের করার জন্য । 
 
