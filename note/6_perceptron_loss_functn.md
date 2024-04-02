@@ -1,7 +1,7 @@
 # Lost Function: (Lecture-06)
 
 
-# Problem with perceptron Trick : 
+## Problem with perceptron Trick : 
 
 ![Alt text](image-19.png)
 
