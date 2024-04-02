@@ -24,9 +24,10 @@ Although there are different types of loss functions, fundamentally, they all op
 ![Alt text](image-21.png)
 
 
-Like, এখানে একটা ফাংশন বানানো আছে এর মধ্যে ভ্যালু provide করলে যার জন্য আমরা  prediction error পাবো . উপরের ছবিতে যার prediction error 23 সেই function এর W1,W2,b এর ভ্যালু গুলো দিয়ে যে রেখা পাবো সেইটা best fit করবে । 
+Like, এখানে একটা ফাংশন বানানো আছে । এর মধ্যে আমরা যার জন্য ভ্যালু (W1,W2,b) provide করলে যার জন্য আমরা  prediction error পাবো ।  উপরের ছবিতে যার prediction error 23 সেই function এর W1,W2,b এর ভ্যালু গুলো দিয়ে যে রেখা পাবো সেইটা best fit করবে । 
 
-বিভিন্ন সমস্যা সমাধানের জন্য বিভিন্ন ধরনের lost function আছে । perceptron এর জন্য আমরা perceptron loss function নিয়ে পড়বো । 
+`বিভিন্ন সমস্যা সমাধানের জন্য বিভিন্ন ধরনের lost function আছে । ml এ আমরা I) Stochastic Gradient Descent II) Batch Gradient Descent III) Mini Batch Gradient Descent । here, Gradient Descent = loss function . Perceptron এর জন্য আমরা perceptron loss function নিয়ে পড়বো ।`
+
 
 
 # Perceptron Loss Function: 
