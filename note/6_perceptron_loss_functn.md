@@ -49,16 +49,17 @@ Loss Function is a mathematical function. যেইটা আমাদের এ
 
 ![Alt text](image-25.png)
 
-এখানে, L দিয়ে একটা term আছে আর R (Regularization) দিয়ে আরেকটা term আছে । 
-perceptron এর জন্য L function টা কেমন হবে তা নিচে নিচে দেওয়া আছে । perceptron এর জন্য L function অনেক টা Hinge loss function এর মতোই । কিন্তু, Hinge loss function এ ১-similar term আছে । 
+এখানে, L(loss) দিয়ে একটা term আছে আর R (Regularization) দিয়ে আরেকটা term আছে । 
+perceptron এর জন্য L(loss) function টা কেমন হবে তা নিচে নিচে দেওয়া আছে । perceptron এর জন্য L function অনেক টা Hinge loss function এর মতোই । কিন্তু, Hinge loss function এ ১-similar term আছে । 
+
+![Alt text](image-26.png)
 
 
+আমরা আপাতত regularization কে ignore করবো। L(loss) function এ f(x_i) হলে আমাদের সেই লাইন টা বা মডেলটা আর y_i হলো output iq,cgpa এর example এর ক্ষেত্রে placedment হচ্ছে y_i । 
 
+`অর্থাৎ আমাদের (W_1,W_2,b) এর এমন ভ্যালু বের করতে হবে যার কারণে L(loss) function এর মান মিনিমাম আসবে। এর জন্য আমরা gradient decent ব্যবহার করি । ` 
 
-
-
-
-
+# Explanation of Loss Function:
 
 
 
