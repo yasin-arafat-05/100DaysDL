@@ -32,6 +32,8 @@ Like, এখানে একটা ফাংশন বানানো আছে 
 
 # Perceptron Loss Function: 
 
+Loss Function is a mathematical function. যেইটা আমাদের একটা number দিবে । সেইটা সেই model এর prediction error । 
+
 ![Alt text](image-22.png)
 
 এখানে, ১ম চিত্রে কোন রেখার উপর  যতগুলো misclassified point আছে তাদের সবগুলোর মান এক ধরে তাদের মোট prediction error  বের করা হয়েছে যেই টা ঠিক না । কারণ, মূলবিন্দু থেকে যার দূরত্ব বেশি তার  prediction error তত বেশি । 
@@ -43,12 +45,12 @@ Like, এখানে একটা ফাংশন বানানো আছে 
 তাই, আমরা রেখার লাইনে cordinate এর মান গুলো বসিয়ে prediction error calculation করি । এইটা আর রেখার থেকে লম্ব দুরত্ব বের করা proportional. Overall, ভ্যালু গুলোর mod নিয়ে negative value আসলে । 
 
 
--> "f(x) parameterized by x," it's indicating a function named "f" where the output depends on the input variable "x."
+# Documentation in sk-learn Stochastic Gradient Descent
 
-Yi - (Ypredicated) = yi - (mxi+b)^2.
+![Alt text](image-25.png)
 
-![Alt text](image-24.png)
-
+এখানে, L দিয়ে একটা term আছে আর R (Regularization) দিয়ে আরেকটা term আছে । 
+perceptron এর জন্য L function টা কেমন হবে তা নিচে নিচে দেওয়া আছে । perceptron এর জন্য L function অনেক টা Hinge loss function এর মতোই । কিন্তু, Hinge loss function এ ১-similar term আছে । 
 
 
 
