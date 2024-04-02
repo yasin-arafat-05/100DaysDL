@@ -1,11 +1,11 @@
 # Lost Function: (Lecture-06)
 
-![Alt text](image-19.png)
 
 # Problem with perceptron Trick : 
 
+![Alt text](image-19.png)
 
-1st problem  এক্ষেত্রে দুইটা লাইন ঐ ঠিক । কিন্তু কার ভ্যালু কত  accurate বা কোনটা better line  তা perceptron trick quantify করতে পারে না । 
+1st problem) এক্ষেত্রে দুইটা লাইন ঐ ঠিক। কিন্তু কার ভ্যালু কত  accurate বা কোনটা better line  তা perceptron trick quantify করতে পারে না । 
 
 ![Alt text](image-20.png)
 
