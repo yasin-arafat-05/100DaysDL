@@ -54,6 +54,33 @@ sigmoid এর output এর range (0 ~ 1 ) । আমাদের যেই mod
 
 আমরা প্রথমে ডাটাসেটের একটা point এর সাপেক্ষে দুইটা model এর output বের করছি । প্রথমটা 0.7 এবং দ্বিতীয় টা 0.8 । তারপর এই দুইটার probability যোগ করে পাই, 1.5 কিন্তু আমাদের ভ্যালু এর range ( 0 ~ 1) এই ভ্যালু কে আমরা আবার, sigmoid function এ দিয়ে যেই ভ্যালু পাবো সেইটা হচ্ছে final ans . এক্ষেত্রে, 0.82 অর্থাৎ তার placement done. এইভাবে আমরা non-linear decision boundary বের করতে পারি । 
 
+![Alt text](image-39.png)
+
+<br> <br>
+
+### Dominating a specific perceptron: 
+
+![Alt text](image-40.png)
+
+এখানে আমাদের কাছে দুইটা perceptron আছে । এখন, আমরা কি আমাদের model কে এমন ভাবে train করতে পারি না যাতে perceptron ১ এর বেশি domination করে । 
+
+
+![Alt text](image-41.png)
+
+
+আগের বার আমরা শুধু probabilit গুলো যোগ করেছিলাম কিন্তু এইবার আমরা (weighted addition) করবো । যার piority বেশি দিতে চায় আর wight বেশি দিব পরের টা কম দিয়ে যেই ভ্যালু পাবো তার sigmoid করবো । 
+
+![Alt text](image-42.png)
+
+ইচ্ছে করলে আমরা এর মধ্যে bias term add  করতে পারি । পরে বাকি student গুলোর জন্য আমরা সেম জিনিস ওই করতে পারি । এইভাবে আমাদের multi-layer perceptron কাজ করে । 
+
 <br>
 
+### Visualization: 
+
+![Alt text](image-43.png)
+
+![Alt text](image-44.png)
+
+cgpa এর ভ্যালু দুইটা perceptron এই যাচ্ছে একই সাথে iq এর ভ্যালু দুইটা একই সাথে দুইটা perceptron এই যাচ্ছে ।
 
