@@ -4,7 +4,7 @@
 
 --- 
 
-Perceptron একটা liner model এইটা non-linear decision boundary create করতে পারে না এর জন্য আমরা MLP(multi-layer perceptron) ব্যবহার করি । MLP ব্যবহার করে একটা বড় neural network বানাতে পারি যেইটা universal function approximator হিসেবে কাজ করে non-linear decision boundary create করতে পারবে । 
+Perceptron একটা liner model এইটা non-linear decision boundary create করতে পারে না এর জন্য আমরা MLP(multi-layer perceptron) ব্যবহার করি । MLP ব্যবহার করে একটা বড় neural network বানাতে পারি যেইটা `universal function approximator` হিসেবে কাজ করে non-linear decision boundary create করতে পারবে । 
 
 <br>
 
@@ -83,4 +83,32 @@ sigmoid এর output এর range (0 ~ 1 ) । আমাদের যেই mod
 ![Alt text](image-44.png)
 
 cgpa এর ভ্যালু দুইটা perceptron এই যাচ্ছে একই সাথে iq এর ভ্যালু দুইটা একই সাথে দুইটা perceptron এই যাচ্ছে ।
+
+
+### Let's view a more complex structure:
+
+`Neural Network Architecture: ` node বা perceptron গুলো একে অপরের সাথে কিভাবে connected । আমরা আমাদের প্রয়োজন মতো architecture এ changes করতে পারি । Total 4 way দেখবো আমরা neural network এর architecture change  করার । 
+
+
+- `Increase the number of perceptron in hidden layer : `
+আগের উদাহারনে আমরা দুই টা node দেখেছিলাম । এখানে আমরা 3 টা node দিয়ে কাজ করতেছি । ৩ টা কাজ করার সুবিধা হচ্ছে এই খানে আমাদের non-linear boundary আগের থেকে complex . আমাদের কাছে যত বেশি non-linear boundary complex হবে আমরা তত বেশি extra node add করবো । 
+
+![Alt text](image-45.png)
+
+- `Increase the number of node in the input layer: `
+এইটা শুধু তখনই করতে পারবো যখন আমাদের dataset এ number of column বাড়বে । এক্ষেত্রে আমরা 3d graph পাবো ।  আর perception model হিসেবে 2d plane পাবো । তারপর এদের কে linearly combine করে activation function এ দিব । 
+
+![Alt text](image-46.png)
+
+
+- `Increase the number of node in the output layer: `
+Multicalss classification এর ক্ষেত্রে, output layer এ অনেক গুলো node থাকে । একটা image input দিলাম সেইটা dog,cat or human কোনটা এর জন্য আলাদা আলাদা output layer এ 3 টা perceptron থাকবে । output এ যার probability  বেশি থাকবে output এ সেই perceptron এর ছবি আসবে । 
+
+![Alt text](image-48.png)
+
+
+- `Increase the number of hidden  layer: `
+আমাদের কাছে যদি non-linearity অনেক অনেক বেশি হয় সেক্ষেত্রে আমরা multiple hidden layer add করতে পারি । আমরা যদি enough time and enough data দেয় তাহলে যেকোন non-linearity বা অনেক অনেক বেশি complex  function achieve করতে পারি । তাই perceptron কে `universal function approximator` বলে । 
+
+![Alt text](image-49.png)
 
