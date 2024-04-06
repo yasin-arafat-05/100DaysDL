@@ -6,7 +6,7 @@
 
 ---
 
-# Hand Written Digit Classification:
+# Hand Written Digit Classification: With Ann
 
 <br>
 
@@ -19,3 +19,7 @@
 <br>
 
 <br>
+
+
+![Alt text](image-51.png)
+
