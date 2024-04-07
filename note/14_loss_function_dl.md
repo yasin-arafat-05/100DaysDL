@@ -42,10 +42,13 @@ Neural Network এ আমরা প্রথমে weight and bias এর random
 
 `loss function শুধু একটা single dataset এর entity বা row  এর উপর কাজ করে । কিন্তু, cost function(এর equation ছবিতে দেওয়া আছে) পুরো একটা batch বা একটা epochs এর উপর কাজ করে । `
 
-
 <br>
 
+
+
 # Mean Squared Error Function:
+
+- Use in regression problem
 
 ![Alt text](image-58.png)
 
@@ -55,15 +58,48 @@ Neural Network এ আমরা প্রথমে weight and bias এর random
 - Relation of error with bias and weight.
 এখানে আমরা square করছি । অর্থাৎ, (y - y_out) এর ভ্যালু বা y_out এর ভ্যালু যত বড় হবে । error তত magnify হবে । error যত বড় হবে weight and bias এর ভ্যালু তত drastic বা বেশি হবে  বা weight and bias এর আপডেট তত বেশি হবে ।
 
-
 <br>
 
-# Advantage and Disadvantage:
+### Advantage and Disadvantage of Mean_Squared_Error Loss Function:
 
 ![Alt text](image-59.png)
 
 `Disadvantage:`
 - outliers কে  fix করার জন্য মডেল এর output অনেক বেশি হয়ে যাবে । যেইটা কাম্য নয় । তাই  outliears থাকলে আমরা mean_squared_error ব্যবহার করি না । 
 
+`mean_squared_error ব্যবহার করার শর্ত হলো আউটপুট লেয়ারের activation function অব্যশই অব্যশই linear হতে হবে । `
 
+<br>
+
+
+
+
+# Mean Absolute Error:
+
+- Use in regression problem
+
+![Alt text](image-60.png)
+
+- Mean_Squared_Error Loss Function এর মতোই কিন্তু Square এর পরবর্তিতে absolute value ব্যবহার করি । 
+- Outliears কে ভালোভাবে handle করতে পারে ।  
+- এইটা কে differentiation করা যায় না । আর যেহেতু, gradient decent একদম differentiation এর উপর নির্ভরশীল তাই আমরা gradient decent apply করতে পারি না । এখানে, আমরা sub-gradient decent apply করি ।  
+
+<br>
+
+
+
+# Huber Loss Function:
+
+- Use in regression problem
+
+আমাদের outliers এর ডাটা 25% এর মতো থাকলে তাহলে সেইগুলোকে আর outliers হিসেবে গণ্য করা যায় না । এই ধরনের সমস্যার ক্ষেত্রে আমাদের mean_squared_error function and mean_absolute_error ঠিক ঠাক মতো কাজ করে না । 
+তাই আমাদের **huber loss function** এর প্রয়োজন হয়েছে ।
+
+![Alt text](image-61.png)
+
+- outliers না থাকলে Huber Loss Function -> mean_squared_error loss function হিসেবে কাজ করে । 
+
+- outliers থাকলে Huber Loss Function -> mean_absolute_error loss function হিসেবে কাজ করে । 
+
+`outliers আছে কি না নেই তা গামা(hyperparameter) দিয়ে নির্ধারণ হবে । `
 
