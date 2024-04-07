@@ -102,4 +102,80 @@ Neural Network এ আমরা প্রথমে weight and bias এর random
 - outliers থাকলে Huber Loss Function -> mean_absolute_error loss function হিসেবে কাজ করে । 
 
 `outliers আছে কি না নেই তা গামা(hyperparameter) দিয়ে নির্ধারণ হবে । `
+<br>
+
+
+
+# Binary Cross Entrophy loss function বা  log loss function:
+ 
+-  Use in classification problem ।
+
+-  আমাদের কাছে দুইটা class থাকে । (Binary classification problem)
+
+![Alt text](image-62.png)
+
+`Binary Cross Entrophy Loss Function ব্যবহার করার শর্ত হলো আউটপুট লেয়ারের activation function অব্যশই অব্যশই sigmoid হতে হবে । `
+
+- Cost function formula in Binary Cross Entrophy
+
+![Alt text](image-63.png)
+
+- `Cost function এর  working procedure:` Neural Network এ আমরা প্রথমে weight and bias এর random value দিয়ে শুরু করি । Neural Network train করার সময় আমরা যখন একটা student এর info গুলো neural network এর মধ্যে যায় তখন `forward propagation` এর মাধ্যমে এর Y_output (prediction of the model) বের করি । তারপর, আমরা `binary_cross_entrophy` এর মাধ্যমে loss calculate করে একটা নাম্বার(loss) পাবো । এই loss এর উপর ভিত্তি করে `আমরা neural network এর পেছনে গিয়ে`  weight and bias এর ভ্যালু গুলো adjust করি `gradient descent` এর মাধ্যমে । তারপর, আবার Y_output (prediction of the model) এর মান বের করে minimum loss এর জন্য weight and bias এর ভ্যালু গুলো adjust করি।  
+
+
+`Disadvantage:`
+- multiple loacl minima থাকবে ।  
+
+<br>
+
+
+
+# Categorial Cross Entrophy Loss Function: 
+
+-  Use in classification problem ।
+
+- দুইটা এর অধিক class থাকলে । (Multi-Classification Problem)
+
+![Alt text](image-64.png)
+
+- output layer এ আমাদের যতগুলো class থাকবে ঠিক তত গুলো node থাকবে । 
+- Activation হিসেবে softmax activation function ব্যবহার করবো । উপরের ছবিতে, Yes এর জন্য ফাংশন এর উপরে e^z1 
+- উপরের ছবিতে, No এর জন্য ফাংশন এর উপরে e^z2 
+- উপরের ছবিতে, Maybe এর জন্য ফাংশন এর উপরে e^z3
+
+
+<br>
+
+- Cross Entrophy Loss Function ব্যবহার করার জন্য আমরা প্রথমে output কলামে  One hot encoding প্রয়োগ করি ।  
+
+- dataset থেকে ৮ , ৮০ ইনপুট দিলে, 
+![Alt text](image-65.png)
+
+আমরা output layer এ ৩ টা নোড এর জন্য ৩ টা output পাবো range to (0~1) । এখন এই তিনটার জন্য আমরা লস হিসাব করবো। 
+
+![Alt text](image-66.png)
+
+তারপর, gradient decent apply করে weight and bias update করবো  ।  test data এর ক্ষেত্রে, তিনটার মধ্যে যার probability সবচেয়ে বেশি আসবে সেইটাই হবে আমাদের উত্তর ।  
+
+<br>
+
+
+
+# Sparce Categorical Entrophy loss function:
+
+**Sparce Categorial Entrophy and Categorical Cross Entrophy দুইটা সেমই কিন্তু আমরা categorical cross entrophy এর ক্ষেত্রে আমরা one hot encoding ব্যবহার করি । আর Sparce Categorical Entrophy এর ক্ষেত্রে আমরা integer hot coding করি । উপরের এক্সামপোল এ integer hot coding এ yes no and maybe কে তিনটা integer assign করি ।**
+
+
+![Alt text](image-67.png)
+
+- Categorical Cross Entrophy formula দিয়েই  করবো । কিন্তু, এখানে, আমাদের ডাটা(row) এ যেই লেভেল(1,2,3) থাকবে formula তে সেই term টা ছাড়া বাকি গুলোর মান ০ বসিয়ে লস হিসাব করবো । 
+
+`Advantage:`
+- এইটা তে যেহেতু আমাদের ডাটা(row) এ যেই লেভেল(1,2,3) থাকবে  formula তে সেই term টা ছাড়া বাকি গুলোর মান ০ বসিয়ে লস হিসাব তাই এইটা Categorical cross entrophy এর থেকে fast হয়। 
+
+
+
+
+
+
 
