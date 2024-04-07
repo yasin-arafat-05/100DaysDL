@@ -170,6 +170,11 @@ Neural Network এ আমরা প্রথমে weight and bias এর random
 
 - Categorical Cross Entrophy formula দিয়েই  করবো । কিন্তু, এখানে, আমাদের ডাটা(row) এ যেই লেভেল(1,2,3) থাকবে formula তে সেই term টা ছাড়া বাকি গুলোর মান ০ বসিয়ে লস হিসাব করবো । 
 
+### Formula of cost function:
+
+![Alt text](image-68.png)
+
+
 `Advantage:`
 - এইটা তে যেহেতু আমাদের ডাটা(row) এ যেই লেভেল(1,2,3) থাকবে  formula তে সেই term টা ছাড়া বাকি গুলোর মান ০ বসিয়ে লস হিসাব তাই এইটা Categorical cross entrophy এর থেকে fast হয়। 
 
