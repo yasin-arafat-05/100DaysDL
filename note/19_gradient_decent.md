@@ -34,8 +34,9 @@ Y = mx +C
 
 - এই mean square error (with summation) কে আমরা cost function বলি ।
 - আর শুধু মাত্র mean square error (without summation কে ) loss function বলি ।  
-- Gradient descent হলো একটা optimization algorithrm যেইটা minimize করে loss (loss function) and update the model parameters (such as weights and biases)। 
+- Gradient descent হলো একটা optimization algorithrm যেইটা minimize করে loss (loss function) by updating the model parameters (such as weights and biases)। 
 - অন্যদিকে, Backpropagation is then employed to compute these gradients or parameter(weights and bias) efficiently by propagating the errors backward through the network, starting from the output layer to the input layer.
+`অর্থাৎ, Backpropagation algorithrm এর মধ্যে আমরা Gradient Descent apply করি । `
 
 ![Alt text](image-82.png)
 
@@ -74,8 +75,66 @@ With graph:
 --- 
 ---
 
+# Stochastic Gradient Descent vs Batch Gradient Descent vs Mini Batch Gradient Descent
+
+
+## Batch Gradient Descent: 
+
+![Alt text](image-94.png)
+
+এই  ডাটা সেটের জন্য আমরা, w1,w2 and bias এর মান বের করবো । এর জন্য আমরা, 
+শুরুতে, w1,w2 and bias = 1 ধরবো,  
+
+![Alt text](image-95.png)
+
+তারপর, প্রথম row এর জন্য model  অনুযায়ী আমরা  error1 এইভাবে, error6 পর্যন্ত calculate করবো । একে বলে epoch যেহেতু এইটা 1st epoch তাই আমরা একে end of first epoch বলবো ।  
+
+![Alt text](image-96.png)
+
+প্রথম,epoch শেষ হলে আমরা mean square error calculation করে নতুন weight1, weight2 and bias এর মান adjust করবো। 
+এইভাবে আমরা best fit line বা model বের করবো । 
+![Alt text](image-97.png)
+
+যে gradient descent এ আমরা সকল training sample এর error calculate করি তাকে batch gradient descent বলে । 
+![Alt text](image-98.png)
+
+
+## Stochastic Gradient Descent: 
+
+এখন, যদি আমাদের কাছে 10 million data থাকে সেক্ষেত্রে তো আর সব গুলো training sample এর error calculation করা possible না । আর 10 million data এর জন্য আমদের 20 million বার partial derivative করতে  হবে সেইটা computation expensive। deep learning এও এর ব্যবহার আছে । এত  বড় calculation করা আমাদের কম্পিউটারের পক্ষে সম্ভব নয় । তাই আমরা , যেকোন একটা  random sample কে সিলেক্ট করি তারপর সেইখানে gradient descent apply করি । একে আমরা বলি stochastic gradient descent . 
+
+Difference between batch gradient and stochastic gradient descent: 
+![Alt text](image-99.png)
+
+
+## Mini-batch gradient descent: 
+
+এটা SGD এর মতোই কিন্তু আমরা একটা randomly sample select করার পরিবর্তে আমরা বেশ কয়েকটি sample ব্যবহার করি । 
+
+![Alt text](image-100.png)
+
+
+
 <br> <br> <br>
 
 ----
 
+# In Deep Learning:
 
+![Alt text](image-92.png)
+
+![Alt text](image-93.png)
+
+<br>
+
+#### Here are the names of different types of gradient descent algorithms:
+
+1. Batch Gradient Descent
+2. Stochastic Gradient Descent (SGD)
+3. Mini-batch Gradient Descent
+4. Gradient Descent with Momentum
+5. AdaGrad
+6. RMSProp (Root Mean Square Propagation)
+7. Adam (Adaptive Moment Estimation)
+
+<br>
