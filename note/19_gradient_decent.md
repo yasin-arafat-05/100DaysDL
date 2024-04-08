@@ -1,4 +1,7 @@
 ---
+
+<br> <br> <br>
+
 ---
 # What i learn in ML about gradient decent:
 
