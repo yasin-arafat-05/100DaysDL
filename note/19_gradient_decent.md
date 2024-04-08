@@ -96,8 +96,8 @@ With graph:
 ![Alt text](image-97.png)
 
 যে gradient descent এ আমরা সকল training sample এর error calculate করি তাকে batch gradient descent বলে । 
-![Alt text](image-98.png)
 
+<br>
 
 ## Stochastic Gradient Descent: 
 
