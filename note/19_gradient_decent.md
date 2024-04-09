@@ -138,3 +138,5 @@ Difference between batch gradient and stochastic gradient descent:
 7. Adam (Adaptive Moment Estimation)
 
 <br>
+<br>
+
