@@ -127,6 +127,11 @@ Difference between batch gradient and stochastic gradient descent:
 
 <br>
 
+
+---
+
+---
+
 #### Here are the names of different types of gradient descent algorithms:
 
 1. Batch Gradient Descent
@@ -137,6 +142,10 @@ Difference between batch gradient and stochastic gradient descent:
 6. RMSProp (Root Mean Square Propagation)
 7. Adam (Adaptive Moment Estimation)
 
+
 <br>
 <br>
+
+
+
 
