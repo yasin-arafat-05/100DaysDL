@@ -66,3 +66,21 @@
 # Let's talk about ` Backpopagation intution: `
 
 
+### `W_new = W_old - dL/dw_old` কেন - ব্যবহার করলাম ? 
+
+![Alt text](image-108.png)
+
+- `W_new = W_old - dL/dw_old` কেন - ব্যবহার করলাম ? 
+- b = 5, তখন, `slope positive` and `minima` বের করার জন্য আমাদের পুরানো ভ্যালু থেকে বাদ দিতে হবে । 
+- b = - 5, তখন, `slope negative` and `minima` বের করার জন্য আমাদের পুরানো ভ্যালু থেকে যোগ করতে হবে । 
+
+
+### `Learning Rate:`
+
+![Alt text](image-109.png)
+
+- `learning rate` না থাকলে slope এত বেশি  বা কম আসতো যা দিয়ে কখনোই `minima` তে যাওয়া possible না । 
+- `learning rate` না থাকলে slope এর change এর zigzag মতো হতো  **(উপরের চিত্র এর মতো)**  যেইটা কখনোই ভালো নয় । 
+
+pratical demo: [link](https://developers.google.com/machine-learning/crash-course/fitter/graph)
+
