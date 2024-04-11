@@ -87,7 +87,7 @@ pratical demo: [link](https://developers.google.com/machine-learning/crash-cours
 
 ### What is convergence?
 
-- আমরা এর ভ্যালু কত সেট করি? 
+- আমরা epochs এর ভ্যালু কত সেট করি? 
 
 - `W_new = W_old - dL/dw_old` convergence means when `W_new` value is close to `W_old` value. when we reach near to the minima the value of (learning rate*dL/dw_old) is close to zero.
 
