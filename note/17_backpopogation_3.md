@@ -49,4 +49,20 @@
 
 - Derivative at a point বলতে সেই point এর slope কে বুঝায় । 
 
+![Alt text](image-106.png)
+
+`weight or bias এ চেইজ করার ফলে লস ফাংশনে কেমন চেইজ হচ্ছে তা ডেরিভেটিভস দিয়ে বের করতে পারছি । `
+
+---
+
+# Let's talk about `The concept of minima:`
+
+![Alt text](image-107.png)
+
+- আমাদের ফাইনাল objective হচ্ছে Loss reduce করা । অর্থাৎ minima বের করা । এর জন্য আমাদের আগে ডেরিবেটিভ     (এক এর অধিক চলক থাকলে  partial derivative করতে হবে ) করতে হবে তারপর সেইটা = ০ ধরে minima বের করতে হবে । 
+
+---
+
+# Let's talk about ` Backpopagation intution: `
+
 
