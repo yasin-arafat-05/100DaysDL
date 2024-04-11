@@ -84,3 +84,13 @@
 
 pratical demo: [link](https://developers.google.com/machine-learning/crash-course/fitter/graph)
 
+
+### What is convergence?
+
+- আমরা এর ভ্যালু কত সেট করি? 
+
+- `W_new = W_old - dL/dw_old` convergence means when `W_new` value is close to `W_old` value. when we reach near to the minima the value of (learning rate*dL/dw_old) is close to zero.
+
+- কিন্তু, আমরা এইটা কোন শর্ত না প্রয়োগ করে epochs এর ভ্যালু ১০০০ এর দিয়ে দেই । 
+
+
