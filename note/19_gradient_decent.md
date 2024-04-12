@@ -188,12 +188,14 @@ Difference between batch gradient and stochastic gradient descent:
 <br>
 
 `Graph in: Batch`
+
 ![Alt text](image-116.png)
 
 - **stable**
 
 
 `Graph in: Stochastic`
+
 ![Alt text](image-117.png)
 
 - **unstable**
