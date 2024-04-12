@@ -158,6 +158,17 @@ Difference between batch gradient and stochastic gradient descent:
 ![Alt text](image-113.png)
 
 `Batch Gradient Descent` is faster than stocastic gradient descent.
+
 - batch size: 1 হলে সেইটা stochastic gradient descent । 
-- batch size: row_size() হলে সেইটা stochastic gradient descent । 
+
+![Alt text](image-115.png)
+
+`batch_size=320, একটা রো এর ৩২০ টা batch বানাও । প্রত্যেক ephocs এ 320 বার weight and bias update হচ্ছে `
+
+
+- batch size: row_size(320) হলে সেইটা batch gradient descent । 
+
+![Alt text](image-114.png)
+
+`batch_size=320, একটায় batch বানাও যেখানে টা রো আছে । প্রত্যেক ephocs এ 1 বার weight and bias update হচ্ছে ` 
 
