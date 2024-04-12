@@ -149,6 +149,9 @@ Difference between batch gradient and stochastic gradient descent:
 
 ---
 
+# Batch Gradient Descent:
+
+`এখানে আমরা একটা লুপই চালাই যেইটা শুধু  epoch এর জন্যই চলবে ।  `
 
 # Difference between `Batch` and `Stochastic` Gradient Descent
 
@@ -222,5 +225,23 @@ Difference between batch gradient and stochastic gradient descent:
 
 - **NO**
 
-জিগজাগ behavior এর কারণে,  আমরা টা পায় না । 
+জিগজাগ behavior এর কারণে, আমরা exact global minima টা পায় না  appoximately, global minima এর কাছাকাছি কোন ভ্যালু পাই ।
+
+<br>  <br>
+
+
+---
+
+# Vectorization:
+
+![Alt text](image-120.png)
+
+এখানে, y_hat এর জন্য আমাদের আর একটা লুপের দরকার ছিল কিন্তু আমরা ওইটা  np.dot() দিয়ে করে ফেলেছি । এইটা লুপের থেকে faster and optimized । আর একেই Vectorization বলে । 
+
+![Alt text](image-121.png)
+
+
+---
+
+
 
