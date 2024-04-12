@@ -154,7 +154,7 @@ Difference between batch gradient and stochastic gradient descent:
 
 <br>
 
-### Which is faster(given same number of epochs)?
+# Which is faster(given same number of epochs)?
 
 ![Alt text](image-113.png)
 
@@ -175,7 +175,7 @@ Difference between batch gradient and stochastic gradient descent:
 
 <br> <br>
 
-### Which is the faster to converge (given some epoch)
+# Which is the faster to converge (given some epoch)
 
 `- this time it is stochastic gradient descent.`
 কারণ, stochastic gradient descent আর Batch Gradient Descent এ সেম epoch এ রান করলেও stochastic gradient descent এ weight and bias update বেশি হচ্ছে একটা single epoch । তাই converge বেশি হবে । 
