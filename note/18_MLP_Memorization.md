@@ -24,4 +24,9 @@
 
 `নিচে mathematical ফরমুলা দেওয়া হয়েছে যদি derivative দুইটা variable এর নির্ভর করে তখন তাদের কীভাবে বের করতে হয় । `
 
+<br>
+
+![Alt text](image-112.png)
+
+আমরা যতই  neural network এর যত ইনপুট এর দিকে যাচ্ছী ততই আমাদের derivative complex হওয়া শুরু করছে আর derivative repeat হচ্ছে । এখানে, back propagation algorithm memoization ব্যবহার করে । 
 
