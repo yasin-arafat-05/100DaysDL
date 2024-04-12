@@ -147,5 +147,17 @@ Difference between batch gradient and stochastic gradient descent:
 <br>
 
 
+---
 
+
+# Difference between `Batch` and `Stochastic` Gradient Descent
+
+
+### Which is faster(given same number of epochs)?
+
+![Alt text](image-113.png)
+
+`Batch Gradient Descent` is faster than stocastic gradient descent.
+- batch size: 1 হলে সেইটা stochastic gradient descent । 
+- batch size: row_size() হলে সেইটা stochastic gradient descent । 
 

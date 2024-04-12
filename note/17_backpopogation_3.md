@@ -30,7 +30,7 @@
 
 - Gradient descent হলো একটা optimization algorithrm যেইটা minimize করে loss (loss function) by updating the model parameters (such as weights and biases)।
 
-- Gradient descent আমরা derivative নির্নয় করি । Derivative নির্ণয় করার মানে হলো `slope` নির্ণয় করা । 
+- Gradient descent আমরা derivative নির্নয় করি । Derivative নির্ণয় করার মানে হলো `slope` or `gradient` নির্ণয় করা । 
 
 
 ---
