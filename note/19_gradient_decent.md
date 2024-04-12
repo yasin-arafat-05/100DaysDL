@@ -199,3 +199,28 @@ Difference between batch gradient and stochastic gradient descent:
 ![Alt text](image-117.png)
 
 - **unstable**
+
+
+---
+
+# কেন এমন হয় `why stable and unstable`?
+
+![Alt text](image-118.png)
+
+- **SGD এ আমরা randomly একটা data point pick করি তাই জিগজাগ লাইন পাচ্ছি**
+- **আমরা সব গুলো রো এর মধ্য দিয়ে একটা organized way তে**
+
+# SGD `এর spikey behaviour কি useful`?
+
+- **YES**
+
+![Alt text](image-119.png)
+
+যদি আমাদের অনেকগুলো minima থাকে তাহলে, batch gradient descent এর ক্ষেত্রে, local minima তে আঁকটে থাকতে পারে কারণ batch gradient descent এর ক্ষেত্রে organized way তে data flow হয় । অন্যদিকে, SGD তে তারা যদি কোন local minima তে আঁকটে যায়, জিগজাগ characteristic এর কারণে তারা সেই থেকে বেরিয়ে এসে global minima(সবচেয়ে বড় গোলাটা) কেই আউটপুট হিসেবে দেয় । 
+
+<br> <br>
+
+- **NO**
+
+জিগজাগ behavior এর কারণে,  আমরা টা পায় না । 
+
