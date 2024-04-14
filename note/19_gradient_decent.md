@@ -246,4 +246,11 @@ Difference between batch gradient and stochastic gradient descent:
 ---
 
 
+# Mini batch Gradient Descent:
+
+![Alt text](image-122.png)
+
+BGD and SGD এদের দুইজনের সুবিধা আর অ্যাসুবিধা আছে । এদের দুইজনের থেকে একটি ভালো Gradient Descent হলো Mini batch Gradient Descent । ৩২০ টা রো থাকলে এদের ৩২ টাকে  নিয়ে একটি batch বানালে টোটাল ১০ টা বানাবো যাবে । অর্থাৎ, প্রতেক ephoc এ ১০ বার update হবে । 
+
+
 
