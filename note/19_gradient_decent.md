@@ -276,6 +276,8 @@ i) দ্বিতীয় অসমটা  টী হচ্ছে, `Convergence R
 
 ![Alt text](image-125.png)
 
-
+`400 row and batch_size = 150, in each ephoc update will be 3 times.`
 
 <br>
+
+
