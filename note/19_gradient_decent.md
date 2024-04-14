@@ -240,6 +240,8 @@ Difference between batch gradient and stochastic gradient descent:
 
 ![Alt text](image-121.png)
 
+এখন আমাদের কাছে যদি কোন বড় ডাটাসেট থাকে তাহলে, যেমনঃ ১০ কোটি রো এর সেক্ষেত্রে এত গুলো ডাটা আমাদের র‍্যাম এ লোড হতে পারেবে না । তাই এক্ষেত্রে Vectorization কাজ করবে না । 
+
 
 ---
 
