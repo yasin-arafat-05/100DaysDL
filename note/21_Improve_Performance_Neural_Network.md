@@ -26,3 +26,6 @@
 
 ![Alt text](image-133.png)
 
+- `আমরা ইচ্ছে করলে একটা hidden layer দিয়ে এর মধ্যে অনেক গুলো node দিয়ে আমাদের complex সমস্যার সমাধান পযন্ত করতে পারি । কিন্তু, এর থেকে  ভালো approach হলো যে, অনেক গুলো hidden layer ব্যবহার করে প্রত্যেক hidden layer এ অল্প কিছু node ব্যবহার করা । যেমনঃ face recognition এর ক্ষেত্রে প্রথম hidden layer, primitive features (edges,lines) সনাক্ত করবে তারপর দ্বিতীয় hidden layer বা middle layers গুলো (সেই primitive features গুলো দিয়ে shape বানাবে), last(সেই shape গুলো দিয়ে face বানাবে)। `
+
+- `এখন কতক্ষন পর্যন্ত আমরা hidden layer add করতে থাকবো ?`  উওর হচ্ছে,  যতক্ষন না পযন্ত neural network এ overfitting হচ্ছে ।   
