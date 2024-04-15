@@ -22,6 +22,8 @@
 
 <br>
 
-# done
+# কিভাবে বুঝবো আমাদের Vanishing Gradient হচ্ছে ?
+
+
 
 
