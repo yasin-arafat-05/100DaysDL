@@ -22,8 +22,28 @@
 
 <br>
 
+---
+
 # কিভাবে বুঝবো আমাদের Vanishing Gradient হচ্ছে ?
 
+![Alt text](image-128.png)
 
+i) loss is not changing.
+ii) Drawing the graph of weights
 
+---
+
+Code Demo
+
+---
+
+# How to solve this vanishing gradient problem.
+
+`আমরা total 5টা way দেখবো এর মধ্যে আমরা দুই টা এই ভিডিওতে দেখবো । `
+
+- **Reduce Model Complexity:** আমরা যদি  hidden layer এর সংখ্যা কমিয়ে দেয় তাহলে এই প্রবলেম এর সমস্যার সমাধান করতে পারবো । কিন্তু, আমরা hidden layer এর সংখ্যা বাড়িয়ে ছিলাম একটা complex প্রবলেমকে করার জন্য । কিন্তু এইটা (reduce the number of hidden layer) হলে তো আমরা আর complex প্রবলেমটা  solve করতে পারবো না । 
+
+![Alt text](image-129.png)
+
+<br>
 
