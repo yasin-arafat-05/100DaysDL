@@ -4,8 +4,17 @@
 
 ---
 
+`আমরা অনেক গুলো technique দেখবো এর মধ্যে সব গুলোর overview দেখবো just । Details এ পরে পড়বো । tensorflow and keras ব্যবহার করে আমরা যেই neural network বানিয়েছিলাম সেইটা যে কেউ যারা tensorflow and keras ব্যবহার  করতে যানে তারা খুব সহজেই তৈঁরি করতে পারবে । আর, tensorflow and keras ব্যবহার  করে খুব সহজেই আমরা 80% accuracy পযন্ত আমাদের মডেলকে নিয়ে যেতে পারবো । কিন্ত, 80 থেকে  90 তে নিয়ে যেতে হলে আমাদের কিছু মডিফিকেশন করতে হবে । `
 
-`আমরা অনেক গুলো technique দেখবো এর মধ্যে সব গুলোর overview দেখবো just । Details এ পরে পড়বো । `
+![Alt text](image-132.png)
 
 
+- প্রথমে, আমাদের অনেক গুলো `hyperparameter` আছে । এইগুলোর ভ্যালু বের করা শিখতে হবে । যেমনঃ batch size এর ভ্যালু কত দিলে এইটা ঠিকঠাক কাজ করবে,neural network এর accuracy বাড়বে তা বের করা শিখতে হবে । `hyperparameter` গুলো হলোঃ 
+    - epoch
+    - hidden layer
+    - neuron per layer/ nodes
+    - learning rate
+    - optimizer
+    - batch size
+    - activation function
 
