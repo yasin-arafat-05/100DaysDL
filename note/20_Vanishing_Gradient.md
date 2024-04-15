@@ -41,6 +41,8 @@ Code Demo
 
 `আমরা total 5টা way দেখবো এর মধ্যে আমরা দুই টা এই ভিডিওতে দেখবো । `
 
+# Number ONE:
+
 - **Reduce Model Complexity:** আমরা যদি  hidden layer এর সংখ্যা কমিয়ে দেয় তাহলে এই প্রবলেম এর সমস্যার সমাধান করতে পারবো । কিন্তু, আমরা hidden layer এর সংখ্যা বাড়িয়ে ছিলাম একটা complex প্রবলেমকে করার জন্য । কিন্তু এইটা (reduce the number of hidden layer) হলে তো আমরা আর complex প্রবলেমটা  solve করতে পারবো না । `আর যদি প্রবলেম টা complex না হয় সেক্ষেত্রে এইটা কাজ করবে । `
 
 
@@ -54,11 +56,48 @@ Code Demo With Previous Problem
 
 ---
 
-# Using different actication function (generally we use `Relu`):
+# Number Two:
 
+<br>
+Using different actication function (generally we use `Relu`):
+<br>
 
 ![Alt text](image-130.png)
 
 - `relu activation function: ` (0~z) (Z is a positive number) এই range এ নিয়ে আসে । relu activation function এর  output কে  differentiation করলে সেইটার উত্তর ০ বা ১ আসে । অনেক গুলো ১ * ১ * ১ = ১ গুন হলে উওর ১ ঐ আসে  তাই আর Vanishing Gradient প্রবলেমের মধ্যে পড়তে হয় না। নেগিটিভ ভ্যালু থাকলে সেইটাকে 0 তে নিয়ে আসে, তাই dying relu একটা প্রবলেমের দেখা দেয় । এইটা থেকে বাচার জন্য আমরা Leaky Relu ব্যবহার করবো এই গুলো আমরা পরে দেখবো । 
 
 
+---
+
+code demo
+
+---
+
+
+# Number Three: 
+
+`Proper weight Initialization: এখন, আমরা randomly weight initialization করেছি । কিন্তু, আর কয়েকটা লেকচারের পর xavier glorot weight initialization technique দেখবো । `
+
+---
+
+# Number Four:
+
+`Batch Normalization: এইটা পরে দেখবো । `
+
+---
+
+# Number Five:
+
+`Residual Network:` buliding block of `ANN`, In `CNN`, we will read ResNet which will depends on `Residual Network`.
+
+
+---
+
+আমাদের কাছে আর একটি প্রবলেম আছে, যার নাম হলো `Exploding Gradient Problem` যেইটা আমরা RNN এ দেখবো ।  
+
+![Alt text](image-131.png)
+
+<br>
+<br>
+
+---
