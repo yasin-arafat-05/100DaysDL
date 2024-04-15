@@ -93,6 +93,10 @@ code demo
 
 ---
 
+<br> <br> 
+
+# Exploding Gradient Problem:
+
 আমাদের কাছে আর একটি প্রবলেম আছে, যার নাম হলো `Exploding Gradient Problem` যেইটা আমরা RNN এ দেখবো ।  
 
 ![Alt text](image-131.png)
