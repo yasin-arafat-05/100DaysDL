@@ -41,7 +41,8 @@ Code Demo
 
 `আমরা total 5টা way দেখবো এর মধ্যে আমরা দুই টা এই ভিডিওতে দেখবো । `
 
-- **Reduce Model Complexity:** আমরা যদি  hidden layer এর সংখ্যা কমিয়ে দেয় তাহলে এই প্রবলেম এর সমস্যার সমাধান করতে পারবো । কিন্তু, আমরা hidden layer এর সংখ্যা বাড়িয়ে ছিলাম একটা complex প্রবলেমকে করার জন্য । কিন্তু এইটা (reduce the number of hidden layer) হলে তো আমরা আর complex প্রবলেমটা  solve করতে পারবো না । 
+- **Reduce Model Complexity:** আমরা যদি  hidden layer এর সংখ্যা কমিয়ে দেয় তাহলে এই প্রবলেম এর সমস্যার সমাধান করতে পারবো । কিন্তু, আমরা hidden layer এর সংখ্যা বাড়িয়ে ছিলাম একটা complex প্রবলেমকে করার জন্য । কিন্তু এইটা (reduce the number of hidden layer) হলে তো আমরা আর complex প্রবলেমটা  solve করতে পারবো না । `আর যদি প্রবলেম টা complex না হয় সেক্ষেত্রে এইটা কাজ করবে । `
+
 
 ![Alt text](image-129.png)
 
