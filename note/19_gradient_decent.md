@@ -232,6 +232,8 @@ Difference between batch gradient and stochastic gradient descent:
 
 ---
 
+
+
 # Vectorization:
 
 ![Alt text](image-120.png)
