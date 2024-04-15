@@ -48,3 +48,17 @@ Code Demo
 
 <br>
 
+---
+
+Code Demo With Previous Problem
+
+---
+
+# Using different actication function (generally we use `Relu`):
+
+
+![Alt text](image-130.png)
+
+- `relu activation function: ` (0~z) (Z is a positive number) এই range এ নিয়ে আসে । relu activation function এর  output কে  differentiation করলে সেইটার উত্তর ০ বা ১ আসে । অনেক গুলো ১ * ১ * ১ = ১ গুন হলে উওর ১ ঐ আসে  তাই আর Vanishing Gradient প্রবলেমের মধ্যে পড়তে হয় না। নেগিটিভ ভ্যালু থাকলে সেইটাকে 0 তে নিয়ে আসে, তাই dying relu একটা প্রবলেমের দেখা দেয় । এইটা থেকে বাচার জন্য আমরা Leaky Relu ব্যবহার করবো এই গুলো আমরা পরে দেখবো । 
+
+
