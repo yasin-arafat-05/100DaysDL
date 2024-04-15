@@ -9,7 +9,7 @@
 ![Alt text](image-132.png)
 
 
-- প্রথমে, আমাদের অনেক গুলো `hyperparameter` আছে । এইগুলোর ভ্যালু বের করা শিখতে হবে । যেমনঃ batch size এর ভ্যালু কত দিলে এইটা ঠিকঠাক কাজ করবে,neural network এর accuracy বাড়বে তা বের করা শিখতে হবে । `hyperparameter` গুলো হলোঃ 
+- `fine tuning hyperparameter: ` প্রথমে, আমাদের অনেক গুলো `hyperparameter` আছে । এইগুলোর ভ্যালু বের করা শিখতে হবে । যেমনঃ batch size এর ভ্যালু কত দিলে এইটা ঠিকঠাক কাজ করবে,neural network এর accuracy বাড়বে তা বের করা শিখতে হবে । `hyperparameter` গুলো হলোঃ 
     - epoch
     - hidden layer
     - neuron per layer/ nodes
@@ -19,4 +19,10 @@
     - activation function
 
 -  `Neural Network ` গুলো করার সময় আমরা কত গুলো প্রবলেমে ফেইস করি । যেমনঃ আগের লেকচারে আমরা দেখেছি এমন কিছু প্রবলেম ও আরো কিছু সমস্যা (উপরের ছবিতে দেখানো হয়েছে) সেইগুলোর সমাধান করে । 
+
+
+---
+# Number of `hidden layer:`
+
+![Alt text](image-133.png)
 
