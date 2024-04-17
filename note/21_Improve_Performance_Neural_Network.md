@@ -32,3 +32,20 @@
 
 - `multiple hidden layer ব্যবহার করার আর একটা সুবিধা হচ্ছে । **Transfer Learning** ` এইখানে হয় যে, আমরা একটা  neural network দিয়ে একটা মানুষের face recognition এর জন্য ব্যবহার করলাম । তারপর সেইটাকে আমরা যদি একটা বানরের চেহারা recognition এর জন্য ব্যবহার করতে চায় তাহলে বানর আর মানুষের face এর মধ্যে একটা মিল আছে । এর জন্য আমরা প্রথম কয়েকটা neural network এর hidden layer আগের মতো ব্যবহার করে বাকী গুলো আবার নতুন ভাবে train করতে পারবো । আর এইটাকে Transfer Learning বলে । 
 
+---
+
+# প্রত্যেক লেয়ারে আমাদের কতগুলো  Neuron or Node থাকবেঃ 
+
+- `input layer এ যত গুলো থাকবে তত গুলো Node করতে হবে । `
+
+- `input layer এ আমরা কোন ধরনের সমস্যা সমাধান করতেছি তার উপর নির্ভর করে । যেমনঃ Multi-Class-Classification প্রবলেম এর জন্য যত গুলো class থাকবে তত গুলো node থাকবে output layer এ । Regression প্রবলেমের ক্ষেত্রে একটা output layer এ একটা  node থাকবে । `
+
+![Alt text](image-134.png)
+
+- `Middle Hidden Layer গুলো তে, আগে মনে করা হতো pyramid sturacture (সামনের দিকে আগানোর সাথে সাথে number of node decrease) ফলো করে দিলে result accurate আসবে কিন্তু্‌  exprimenty node number input layer এর  node  সমান হলেও সেম accurate result দেয়।  `
+
+![Alt text](image-135.png)
+
+- `কিন্ত, আমরা এমন ভাবে Middle Hidden Layer দিব না যাতে মাঝখানের কোন একটা Hidden Layer এর node number অনেক অনেক কম হয় তাহলে আমাদের অনেক  feature missing হয়ে যাবে ।`
+
+
