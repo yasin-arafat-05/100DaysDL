@@ -72,5 +72,16 @@
 
 `আমরা Epoch, 100,500,1000 রাখতে পারি । আর **early stopping** নামে একটা technique আছে যেইটা আমাদের model stable কি না তা check করে । Model Stable বলতে বুঝায়ঃ আমাদের model এর  last কয়েকটা Epoch  এ model এর accuracy তেমন change হচ্ছে না । `
 
+---
+# Some Problem :
 
+![Alt text](image-137.png)
+
+<br> <br>
+
+`আজকে লেকচারে যা যা বলা হয়েছে সবগুলো শিখলে আমরা ভালো ভাবে neural network train করতে পারবো । `
+
+<br> <br>
+
+---
 
