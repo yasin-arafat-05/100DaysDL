@@ -62,6 +62,11 @@
 
 - `Batch and Stochastic আমরা Gradient Descent এ দেখেছি। `
 
-- `Batch `
+- ` অন্যদিকে Batch size অনেক বেশি বা কম ও দিতে পারি । `
+    - Batch size কম দিলে train হতে সময় বেশি লাগবে । 
+    - Batch size বেশি দিলে  train হতে সময় কম লাগবে কিন্তু gpu and ram বেশি লাগবে । Batch size বেশি দিলে Warming Up( traning learning rate ) technique follow করলে ভালো result  পাওয়া যায় । 
+
+    
+
 
 
