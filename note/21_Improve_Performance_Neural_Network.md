@@ -66,7 +66,11 @@
     - Batch size কম দিলে train হতে সময় বেশি লাগবে । 
     - Batch size বেশি দিলে  train হতে সময় কম লাগবে কিন্তু gpu and ram বেশি লাগবে । Batch size বেশি দিলে Warming Up( traning learning rate ) technique follow করলে ভালো result  পাওয়া যায় । 
 
-    
+---
+
+# Epoch
+
+`আমরা Epoch, 100,500,1000 রাখতে পারি । আর **early stopping** নামে একটা technique আছে যেইটা আমাদের model stable কি না তা check করে । Model Stable বলতে বুঝায়ঃ আমাদের model এর  last কয়েকটা Epoch  এ model এর accuracy তেমন change হচ্ছে না । `
 
 
 
