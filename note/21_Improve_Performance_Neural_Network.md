@@ -48,4 +48,20 @@
 
 - `কিন্ত, আমরা এমন ভাবে Middle Hidden Layer দিব না যাতে মাঝখানের কোন একটা Hidden Layer এর node number অনেক অনেক কম হয় তাহলে আমাদের অনেক  feature missing হয়ে যাবে ।`
 
+---
+
+# learning rate and optimizer
+
+`আমরা যখন slow traning প্রবলেম solve করবো তখন learning rate and optimizer শিখবো । `
+
+---
+
+# Batch Size:
+
+![Alt text](image-136.png)
+
+- `Batch and Stochastic আমরা Gradient Descent এ দেখেছি। `
+
+- `Batch `
+
 
