@@ -38,7 +38,7 @@ Overfitting in machine learning occurs when a model learns to perform well on th
 
 <br><br>
 
-### The Concept of Dropouts:
+# The Concept of Dropouts:
 
 ![Alt text](image-139.png)
 
@@ -46,7 +46,7 @@ Overfitting in machine learning occurs when a model learns to perform well on th
 
 ---
 
-### Why Dropout layers work well.
+# Why Dropout layers work well.
 
 ![Alt text](image-140.png)
 
