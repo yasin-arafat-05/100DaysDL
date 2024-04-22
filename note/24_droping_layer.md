@@ -18,3 +18,20 @@ Overfitting in machine learning occurs when a model learns to perform well on th
 
 <br>
 
+
+### Possible Solutions:
+
+-   Add more data
+
+-   Reduce Complexity
+
+-   Early Stopping
+
+-   Regularization
+
+    - ridge regression (L1) 
+    
+    - lasso regression (L2)
+    
+-   Dropout
+
