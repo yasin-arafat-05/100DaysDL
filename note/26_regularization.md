@@ -22,4 +22,18 @@
 ![Alt text](image-145.png)
 
 
+# How regularization work?
+
+![Alt text](image-146.png)
+
+`আমরা Neural Network অথবা ANN এ weight and bias এর মান বের করি cost function এর মান reduce করার মাধ্যমে ।  আর regularization এ আমরা cost function এর সাথে একটা penalty add করে দেয় । L2 Regularization এর ক্ষেত্রে আমরা উপরের equation টি penalty এর মান এর সমান হিসেবে বসায়। এখানে, লেমডা হচ্ছে, hyperparameter । লেমডা এর মান বাড়ালে আমরা overfitting থকে underfitting এর দিকে চলে যায় ।  `
+
+`penalty এর কাজ হচ্ছে আমাদের Neural Network এর weight গুলোর মান কে 0 এর  দিকে নিয়ে আসে । `
+
+` L1 এর ক্ষেত্রে শুধু  square টা হবে না ।  `
+
+![Alt text](image-147.png)
+
+
+
 
