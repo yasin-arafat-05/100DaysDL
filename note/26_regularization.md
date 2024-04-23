@@ -17,4 +17,9 @@
 ` overfitting এর সমস্যা দুর করার জন্য আমরা node কমাতে পারি । node কমাতে হলে আমাদের সেই node weight বা  piority কে আমরা শূন্য এর কাছাকাছি নিয়ে যাবো । `
 
 
+# How to solve overfitting problem:
+
+![Alt text](image-145.png)
+
+
 
