@@ -78,6 +78,12 @@ Overfitting in machine learning occurs when a model learns to perform well on th
 `এখন কথা হচ্ছে যে, আমাদের উপরের ছবিতে 0.25 node (without output node) missing থাকবে । আর এইটা হবে শুধু neural network training এর  সময় । কিন্তু, testing এর সময় আমাদের neural network এ সব জায়গায় 100 percent node থাকবে । এখন weight এর value কীভাবে set হবে ? Final weight calculation এর সময় আমরা weight এর value এর সাথে (1 - probability) এর মান গুন করে দিব । এর কারণ training এর সময় যেই node টার missing হওয়ার probability 0.25, testing এর সময় আমাদের সেই node টার probability হবে (1-0.25) বা 0.75 তাই আমরা final weight এর value এর সাথে (1 - probability) এর মান গুন করে দেই । `
 
 
+`আর মজার ব্যাপার হচ্ছে এই সব কিছু keras আমাদের handle করে । কিন্তু, Behind the scene আমাদেরই এইভাবে কাজ করে ।`
+
+
+
+
+
 
 
 
