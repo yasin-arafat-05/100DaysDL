@@ -64,7 +64,18 @@ Overfitting in machine learning occurs when a model learns to perform well on th
 
 # Dropout layers work like Random Forest Analogy:
 
-`Random Forest এ আমরা অনেক গুলো decision tree বানায় । তারপর যেকোন test data এর জন্য সব গুলো decision tree যেই result দেয়, তারমধ্যে যেই টা সববেয়ে বেশি  decision tree দেয় সেইটাকে আমরা final ans হিসেবে গন্য করি । `
+`Random Forest এ আমরা অনেক গুলো decision tree বানায় । তারপর যেকোন test data এর জন্য সব গুলো decision tree যেই result দেয়, তারমধ্যে যেই টা সববেয়ে বেশি  decision tree দেয় সেইটাকে আমরা final ans হিসেবে গন্য করি । আর আমরা জানি Random Forest হচ্ছে একটা ensemble learning technique । `
+
+![Alt text](image-142.png)
+
+`অন্যদিকে, Dropout layers এ আমরা ধরি, 10 টা আলাদা আলাদা neural network train করতেছি, অর্থাৎ, আমরা 10 টা আলাদা আলাদা neural network এর ensemble বানাছি ।  Random Forest এর মতোই Dropout layers ও আমাদের overfitting এর সমস্যা দুর করে । `
+
+
+# How Prediction Works?
+
+![Alt text](image-143.png)
+
+`এখন কথা হচ্ছে যে, আমাদের উপরের ছবিতে 0.25 node (without output node) missing থাকবে । আর এইটা হবে শুধু neural network training এর  সময় । কিন্তু, testing এর সময় আমাদের neural network এ সব জায়গায় 100 percent node থাকবে । এখন weight এর value কীভাবে set হবে ? Final weight calculation এর সময় আমরা weight এর value এর সাথে (1 - probability) এর মান গুন করে দিব । এর কারণ training এর সময় যেই node টার missing হওয়ার probability 0.25, testing এর সময় আমাদের সেই node টার probability হবে (1-0.25) বা 0.75 তাই আমরা final weight এর value এর সাথে (1 - probability) এর মান গুন করে দেই । `
 
 
 
