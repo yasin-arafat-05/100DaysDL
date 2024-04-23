@@ -62,8 +62,9 @@ Overfitting in machine learning occurs when a model learns to perform well on th
 
 ---
 
+# Dropout layers work like Random Forest Analogy:
 
-
+`Random Forest এ আমরা অনেক গুলো decision tree বানায় । তারপর যেকোন test data এর জন্য সব গুলো decision tree যেই result দেয়, তারমধ্যে যেই টা সববেয়ে বেশি  decision tree দেয় সেইটাকে আমরা final ans হিসেবে গন্য করি । `
 
 
 
