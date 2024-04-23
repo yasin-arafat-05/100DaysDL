@@ -35,5 +35,12 @@
 ![Alt text](image-147.png)
 
 
+` আবার অনেক জায়গায় আমরা সমীকরণটি নিচের মতো দেখতে পাবো । `
+
+![Alt text](image-148.png)
+
+`যেখানে, penalty এর equation এ l বলতে বুঝায় আমরা কোন layer এ আছি । তারপর, i আর j দিয়ে বুঝায়  Neural Network এর (i-তম column, j-তম row ) এর node । `
+
+
 
 
