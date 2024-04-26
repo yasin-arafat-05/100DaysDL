@@ -42,5 +42,5 @@
 `যেখানে, penalty এর equation এ l বলতে বুঝায় আমরা কোন layer এ আছি । তারপর, i আর j দিয়ে বুঝায়  Neural Network এর (i-তম column, j-তম row ) এর node । `
 
 
-
+# 10 minutes 
 
