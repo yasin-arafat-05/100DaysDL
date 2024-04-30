@@ -65,4 +65,39 @@
 # tanh Activation Function:
 
 
+![Alt text](image-155.png)
+
+` বামের ছবির গ্রাফ হলো tanh (tanh range -1,1) Activation Function  এর  আর ডানের ছবির গ্রাফ হলো tanh Activation Function এর Derivative । Derivative এর গ্রাফে, x এর মান শূন্য হলে Derivative এর মান সবচেয়ে বেশি (one) হয় আর Derivative এর মান -2 থেকে 2 এর মধ্যেই revolve করতেছে অনেকটা Sigmoid Activation Function এর মতোয় । `
+
+### Advantage:
+
+![Alt text](image-156.png)
+
+
+### Disadvantage:
+
+![Alt text](image-157.png)
+
+
+---
+
+# Relu Activation Function:
+
+`এইটা সবচেয়ে বেশি ব্যবহার করা হয় ।`
+
+![Alt text](image-158.png)
+
+
+### Disadvantange:
+
+![Alt text](image-159.png)
+
+
+- `Completely differentiable না । `
+
+- `Non-zero centred,sigmoid এর মতো এইটাকে solve করি আমরা batch normalization  দিয়ে । `
+
+
+
+
 
