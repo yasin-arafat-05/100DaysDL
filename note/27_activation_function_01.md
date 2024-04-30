@@ -29,6 +29,13 @@
 
 - `Should be Computationally inexpensive: differentiation এত complex হবে না যেইটা করতে অনেক বেশি সময় লাগবে । Computationally expensive হলে, আমাদের train এর সময় অনেক বেশি লাগবে ।  `
 
+- `Should be zero centered or nomalize: আমরা train এর সময় normalized data দিলে সেইটা খুব তাড়াতাড়ি converge হবে । example: tanh activation funciton. `
+
+- `Should be non-saturating: এরা একটা ইনপুট কে একটা range  এর মধ্যে আবন্ধ করে । যেমনঃ sigmoid range(0~1) or tanh range(-1,1) . Saturating activation function হচ্ছে relu, max(o,x) এই ধরনের activation function এর ক্ষেত্রে vanising gradient descent এর সমস্যা দেখা দেয় । `
+
+
+
+
 
 
 
