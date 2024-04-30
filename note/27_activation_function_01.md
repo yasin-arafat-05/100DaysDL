@@ -46,10 +46,23 @@
 
 ![Alt text](image-152.png)
 
+
 ## Disadvantage of Sigmoid Activation Function:
 
 ![Alt text](image-153.png)
 
-`সবচেয়ে বড় সমস্যা হচ্ছে, Sigmoid Activation Function এ vanishing gradient descent এর সমস্যা দেখা দেয় । অনেক সময় x এর মান অনেক বড় হয় যার ফলে এর differentiation ছোট হয় । উপরের ছবিতে যেমন আমরা দেখেছিলাম Sigmoid Activation Function এর Derivative এর গ্রাফ (-3 থেকে 3 ) এর মধ্যে থাকে যদি এই বাইরে চলে যায় তখন  y axis এর ভ্যালু গুলো শূন্য হয় । ভ্যালু শুন্য হলে, Wnew = Wold - (learning_rate * dL/dWold) , Wnew এর মানে কোন পরিবর্তন আসে না । তাই,vanishing gradient descent প্রবলেমের দেখা দেয় । এই সমস্যার জন এখন পযন্ত শুধু binary classification problem এর output layer ছাড়া  অন্য কোথাও Sigmoid Activation Function ব্যবহার করা হয় না ।  `
+- ` সবচেয়ে বড় সমস্যা হচ্ছে, Sigmoid Activation Function এ vanishing gradient descent এর সমস্যা দেখা দেয় । অনেক সময় x এর মান অনেক বড় হয় যার ফলে এর differentiation ছোট হয় । উপরের ছবিতে যেমন আমরা দেখেছিলাম Sigmoid Activation Function এর Derivative এর গ্রাফ (-3 থেকে 3 ) এর মধ্যে থাকে যদি এই বাইরে চলে যায় তখন  y axis এর ভ্যালু গুলো শূন্য হয় । ভ্যালু শুন্য হলে, Wnew = Wold - (learning_rate * dL/dWold) , Wnew এর মানে কোন পরিবর্তন আসে না । তাই,vanishing gradient descent প্রবলেমের দেখা দেয় । এই সমস্যার জন এখন পযন্ত শুধু binary classification problem এর output layer ছাড়া  অন্য কোথাও Sigmoid Activation Function ব্যবহার করা হয় না ।  `
+
+
+- `Sigmoid Activation Function হলো non-zero centered: যেইখানে সবকিছু পজিটিভ বা নেগিটিভ কিন্তু শূন্য না এইসব ক্ষেত্রে আমরা যখন loss calculation করি তখন time বেশি লাগে আর convergence rate ও বেশি হয় । `
+
+![Alt text](image-154.png)
+
+- `Computationally Expensive: Calculation করতে সময় বেশি লাগে ।  `
+
+---
+
+# tanh Activation Function:
+
 
 
