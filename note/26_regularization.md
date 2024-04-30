@@ -43,3 +43,12 @@
 
 
 
+# Intuition Behind Regularization:
+
+![Alt text](image-149.png)
+
+`Regularization এ আমরা loss function এর সাথে একটা penalty add করতেছি । আর আমরা কোন এর ভ্যালু চেইজ করার জন্য আমরা আগের এর ভ্যালু এর সাথে learning rate * সেই weight এর সাপেক্ষে loss function(with regularization) এর differentiation । Finally, আমরা যেই ans পাচ্ছি সেইটা (1- learning rate * hyperparameter)*initial weight আর hyperparameter এর মান positive হয় । অনেক জায়গায় (1- learning rate * hyperparameter) কে weight decay বলে । অনেক সময়  L2 regularization কে weight decay বলে । `
+
+
+
+
