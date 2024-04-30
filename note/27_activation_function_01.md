@@ -34,12 +34,22 @@
 - `Should be non-saturating: এরা একটা ইনপুট কে একটা range  এর মধ্যে আবন্ধ করে । যেমনঃ sigmoid range(0~1) or tanh range(-1,1) . Saturating activation function হচ্ছে relu, max(o,x) । non-sturating activation function এর ক্ষেত্রে vanising gradient descent দেখা দেওয়ার  probability অনেক বেশি । `
 
 
+---
 
+# Sigmoid Activation Function:
 
+![Alt text](image-151.png)
 
+` বামের ছবির গ্রাফ হলো Sigmoid Activation Function  এর  আর ডানের ছবির গ্রাফ হলো Sigmoid Activation Function এর Derivative এর । Derivative এর গ্রাফে, x এর মান শূন্য হলে Derivative এর মান সবচেয়ে বেশি হয় আর Derivative এর মান -3 থেকে 3 এর মধ্যেই revolve করতেছে । `
 
+## Advantage of Sigmoid Activation Function:
 
+![Alt text](image-152.png)
 
+## Disadvantage of Sigmoid Activation Function:
 
+![Alt text](image-153.png)
+
+`সবচেয়ে বড় সমস্যা হচ্ছে, Sigmoid Activation Function এ vanishing gradient descent এর সমস্যা দেখা দেয় । অনেক সময় x এর মান অনেক বড় হয় যার ফলে এর differentiation ছোট হয় । উপরের ছবিতে যেমন আমরা দেখেছিলাম Sigmoid Activation Function এর Derivative এর গ্রাফ (-3 থেকে 3 ) এর মধ্যে থাকে যদি এই বাইরে চলে যায় তখন  y axis এর ভ্যালু গুলো শূন্য হয় । ভ্যালু শুন্য হলে, Wnew = Wold - (learning_rate * dL/dWold) , Wnew এর মানে কোন পরিবর্তন আসে না । তাই,vanishing gradient descent প্রবলেমের দেখা দেয় । এই সমস্যার জন এখন পযন্ত শুধু binary classification problem এর output layer ছাড়া  অন্য কোথাও Sigmoid Activation Function ব্যবহার করা হয় না ।  `
 
 
