@@ -37,7 +37,17 @@
 
 - `**High -Ve Bias:** যদি আমাদের Bias অনেক -Ve হয়ে যায় তাহলে সেক্ষেত্রেও আমরা Dying Relu Porblem এ পড়ে যাবো। `
 
+<br>
 
+` আর যদি কোন neuron একবার dead neuron এ পরিণত হয় তাহলে আর তার recover করা সম্ভব নয় ।  `
+ 
+<br>
 
+# How to get rid from daying Relu Problem?
+
+![Alt text](image-191.png)
+
+- `Set positive value of bias.`
+- `Instead of relu use the variants of relu.`
 
 
