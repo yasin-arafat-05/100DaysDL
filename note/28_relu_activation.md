@@ -50,4 +50,7 @@
 - `Set positive value of bias.`
 - `Instead of relu use the variants of relu.`
 
+# Variants of relu:
+- `Linear `
+- `Non Linear`
 
