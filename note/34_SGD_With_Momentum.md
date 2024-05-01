@@ -66,5 +66,11 @@
 
 `**High Curvature:** উপরের ছবিতে দুইটা বৃত্ত আছে । এখন, বড় বৃত্তটির radius বড় আর ছোট বৃত্তটির radius ছোট । যার radius বড় তার curvature ছোট আর যার radius ছোট তার curvature বড় । বড় curvature গুলো  traverse  করা কষ্টকর। এই সমস্যা গুলোর জন্য আমাদের SGD,BGD,mini-BGD ভালো করে solve করতে পারে না । তাই আমাদের optimizer এর দরকার হয় । `
 
+# Momentum Optimization
+
+![Alt text](image-192.png)
+
+`Non-convex এর ক্ষেত্রে আমরা যেই সমস্যা গুলো ফেইস গুলো সব গুলোকে Momentum Optimizer solve করতে পারে । `
+
 
 
