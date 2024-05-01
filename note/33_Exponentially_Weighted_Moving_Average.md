@@ -18,3 +18,23 @@
 - `Signal Processing `
 - `Deep Learning for making Optimizer `
 
+![Alt text](image-171.png)
+
+- `Finally, শুরুর দিকের weightage (ছবিতে ১ নং) এর চেয়ে পরের গুলোর weightage (ছবিতে ২ নং) বেশি হবে । আর, সময়ের সাথে সাথে কোন particular point এর weightage কমতে থাকে । `
+
+
+# Mathematical Formula:
+
+![Alt text](image-172.png)
+
+- `V(t-1) হচ্ছে t সময়ের আগের সময়ের যেমনঃ day2 হলে day1 এর  value ।`
+- `Beta এর মানের range (0~1) মধ্যে হয়ে থাকে । `
+- `Theta(t) হচ্ছে t সময়ে data এর value । `
+
+![Alt text](image-173.png)
+
+`শুরুতে, Vo = 0 বা   Vo = (theta_not) দুইটায় ব্যবহার করা যায় । কিন্তু, V0 = (theta_not) ব্যবহার করা ভালো । উপরে আমরা Vo = 0 ধরে, calculation করেছি, আর এর পাশে আমরা তার গ্রাফ বানিয়েছি ।  ` 
+
+
+
+
