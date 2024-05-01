@@ -24,7 +24,18 @@
 ![Alt text](image-168.png)
 
 
-`আর final output নির্নয়ের ক্ষেত্রে আমাদের differentiation করতে হয় বা আমরা gradient descent ব্যবহার করি । এ ক্ষেত্রে আমাদের output শূন্য আছে । আর আমাদের weight এর ভ্যালু update হয় না । তখন আমরা যেই neuron কে dead nueron বলি । `
+`আর final output নির্নয়ের ক্ষেত্রে আমাদের differentiation করতে হয় বা আমরা gradient descent ব্যবহার করি । এ ক্ষেত্রে আমাদের output শূন্য আছে । আর আমাদের weight এর ভ্যালু update হয় না । তখন আমরা যেই neuron কে dead nueron বলি । সব কিছুর মূলে রয়েছে weighted sum এবং যখন সেইটা negative হয় । `
+
+
+## weighted sum কখন negative হয় ?? 
+
+![Alt text](image-169.png)
+
+- `**High Learning Rate:** বেশি হলে differentiation(Gradient Descent) করার পর এর সাথে Learning Rate গুন দিলে একটা বড় +Ve মান পাবো । আর সেই বড় +Ve মান থেকে W_old এর ভ্যালু থেকে minus করলে আমরা একটা  negative value পাবো, যার ফলে আমারা Dying Relu Porblem এ পড়ে যাবো । `
+
+![Alt text](image-170.png)
+
+- `**High -Ve Bias:** যদি আমাদের Bias অনেক -Ve হয়ে যায় তাহলে সেক্ষেত্রেও আমরা Dying Relu Porblem এ পড়ে যাবো। `
 
 
 
