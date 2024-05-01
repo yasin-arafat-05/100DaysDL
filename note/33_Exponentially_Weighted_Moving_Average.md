@@ -52,5 +52,17 @@
 
 `Beta এর মান বেশি হলে তাকে moody  বলবো কারণ, কোন decision এর জন্য এরা past এর data এর উপর depend  করতেছে । অন্যদিকে,Beta এর মান কমে হলে তারা present এর উপর নির্ভর করে । `
 
+# Mathmatical Intuition:
+
+![Alt text](image-177.png)
+
+`উপরের ছবি থেকে আমরা clear যে Beta এর মানের উপর নির্ভর করে আমরা নতুন ভ্যালু আসার সাথে সাথে আমরা তাদেরকে weightage বেশি দিতেছি বা কম দিতেছি । `
+
+---
+
+## see code demo 
+
+---
+
 
 
