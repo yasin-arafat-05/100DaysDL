@@ -21,9 +21,50 @@
 
 - `3D তে একটা axis এ Loss অন্য একটা  axis weight আর অন্য একটা  axis এ bias। `
 
-
+<br> <br>
 # Contour Plot Examples:
 
+![Alt text](image-182.png)
+
+` আমরা যেহেতু higer dimention থেকে lower dimention যচ্ছি তাই আমরা অনেক গুলো dimention হারিয়ে ফেলছি সেইগুলোকে আমরা color এর মাধ্যমে represent করতেছি contour graph এ । যেমনঃ উপরের ছবিতে yello color যেইটা একটু উপরের দিকে আছে । আর purple color একটু নিচের দিকে আছে ।  `
+
+![Alt text](image-183.png)
+
+
+![Alt text](image-184.png)
+
+
+![Alt text](image-185.png)
+
+
+![Alt text](image-186.png)
+
+
+![Alt text](image-187.png)
+
+
+![Alt text](image-188.png)
+
+
+![Alt text](image-189.png)
+
+
+![Alt text](image-190.png)
+
+
+
+<br> <br> <br>
+
+
+# Convex vs Non-Convex:
+
+![Alt text](image-180.png)
+
+`আমাদের loss function এর গ্রাফে যদি একটা minima থাকে তাহলে সেইটা কে গ্রাফ Convex বলে । আর যদি একাধিক minima  থাকে (local+global) তাহলে সেইটা কে non-convex গ্রাফ বলে । একটা non-convex গ্রাফে এ saddle point(আগে দেখেছি),local minima, global minima আর high curvature থাকতে পারে । `
+
+![Alt text](image-181.png)
+
+`**High Curvature:** উপরের ছবিতে দুইটা বৃত্ত আছে । এখন, বড় বৃত্তটির radius বড় আর ছোট বৃত্তটির radius ছোট । যার radius বড় তার curvature ছোট আর যার radius ছোট তার curvature বড় । বড় curvature গুলো  traverse  করা কষ্টকর। এই সমস্যা গুলোর জন্য আমাদের SGD,BGD,mini-BGD ভালো করে solve করতে পারে না । তাই আমাদের optimizer এর দরকার হয় । `
 
 
 
