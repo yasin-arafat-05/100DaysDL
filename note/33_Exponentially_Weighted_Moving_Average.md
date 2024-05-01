@@ -35,6 +35,22 @@
 
 `শুরুতে, Vo = 0 বা   Vo = (theta_not) দুইটায় ব্যবহার করা যায় । কিন্তু, V0 = (theta_not) ব্যবহার করা ভালো । উপরে আমরা Vo = 0 ধরে, calculation করেছি, আর এর পাশে আমরা তার গ্রাফ বানিয়েছি ।  ` 
 
+![Alt text](image-174.png)
+
+`আমরা যদি Beta এর মান 0.9 set করি তাহলে কোন একটা particular point এ সেই point থেকে উপরের মতো calculation করলে আমাদের Exponentially Weighted Moving Average এর মান Normal last 10 days average এর মতো behave করবে ।`
+
+`Beta এর মান বেশি হলে আমরা পুরানো value গুলো কে  weightage বেশি দিচ্ছি । আর যত কম হবে তত আমরা নতুন value গুলো কে  weightage দিচ্ছি । `
+
+### Beta এর মান কম । 
+
+![Alt text](image-175.png)
+
+### Beta এর মান বেশি । 
+
+![Alt text](image-176.png)
+
+
+`Beta এর মান বেশি হলে তাকে moody  বলবো কারণ, কোন decision এর জন্য এরা past এর data এর উপর depend  করতেছে । অন্যদিকে,Beta এর মান কমে হলে তারা present এর উপর নির্ভর করে । `
 
 
 
