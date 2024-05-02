@@ -86,4 +86,15 @@
 `See the benifit of using SGD with momentum . Traning সময় SGD এর থেকে অনেক কম লাগবে ।  `
 
 
+# Effect of beta:
+
+![Alt text](image-197.png)
+
+`যদি beta = ০ হয় তাহলে, Momemtum SGD সাধারণ SGD এর equal হয় । beta কে Decaying Factor বলা হয় । যদি beta = ১ হয় তাহলে,  নিচের চিত্রের মতো দেখাবেঃ `
+
+![Alt text](image-198.png)
+
+`এখানে ছোট একটা বলের মতো দেখাছে সেইটাই আমাদের desire পয়েন্ট এ যাবে । যদি beta = 1 হয় তাহলে বলটি dynamic equilibrium চলে যাবে ।  অর্থাৎ, বলটি একপাশে থেকে অন্যপাশে move করবে শুধু । `
+
+
 
