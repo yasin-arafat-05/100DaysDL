@@ -98,5 +98,7 @@
 
 <img scr="https://miro.medium.com/v2/resize:fit:800/1*Nb39bHHUWGXqgisr2WcLGQ.gif" >
 
+![img](https://miro.medium.com/v2/resize:fit:800/1*Nb39bHHUWGXqgisr2WcLGQ.gif)
+
 
 
