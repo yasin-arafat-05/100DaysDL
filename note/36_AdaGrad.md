@@ -36,3 +36,11 @@
 
 ![Alt text](image-212.png)
 
+### ` দুই ক্ষেত্রে, contour plot দেখলে আমরা বুঝতে পারবো আমাদের এর থেকে optimize way খুঁজে বের করা সম্ভব । `
+
+![Alt text](image-213.png)
+
+`M তে sparse value আছে আর B তে নেই তেমন । শুরুতে, যেইদিকে( M  তে ) sparse value আছে সেইদিকের axis এ solpe change হয় না তেমন । কিন্তু, শুরুতে, যেইদিকে( B  তে ) sparse value নেই সেইদিকের axis এ solpe change হয়েছে অনেক। `
+
+
+
