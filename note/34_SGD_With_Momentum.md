@@ -96,5 +96,7 @@
 
 `এখানে ছোট একটা বলের মতো দেখাছে সেইটাই আমাদের desire পয়েন্ট এ যাবে । যদি beta = 1 হয় তাহলে বলটি dynamic equilibrium চলে যাবে ।  অর্থাৎ, বলটি একপাশে থেকে অন্যপাশে move করবে শুধু । `
 
+<img scr="https://miro.medium.com/v2/resize:fit:800/1*Nb39bHHUWGXqgisr2WcLGQ.gif" >
+
 
 
