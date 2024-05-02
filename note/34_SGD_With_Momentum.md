@@ -94,13 +94,14 @@
 
 ![Alt text](image-198.png)
 
+![img](https://miro.medium.com/v2/resize:fit:640/format:webp/1*i1Qc2E0TVlPHEKG7LepXgA.gif)
+
 `এখানে ছোট একটা বলের মতো দেখাছে সেইটাই আমাদের desire পয়েন্ট এ যাবে । যদি beta = 1 হয় তাহলে বলটি dynamic equilibrium চলে যাবে ।  অর্থাৎ, বলটি একপাশে থেকে অন্যপাশে move করবে শুধু । `
 
 
 ![img](https://miro.medium.com/v2/resize:fit:800/1*Nb39bHHUWGXqgisr2WcLGQ.gif)
 
 `blue faster ball হচ্ছে Momentum SGD but slow  বলটি  local minima তে ফেঁসে যাচ্ছে stable ভাবে কিন্তু blue faster ball টি global minima তে যাচ্ছে কিন্তু stable হতে একটু time লাগছে । এ কারণে Momentum SGD একটু slow হয়ে যায় । অর্থাৎ, Momentum SGD এর সবচেয়ে বড় সমস্যা হচ্ছে Momentum । `
-
 
 
 
