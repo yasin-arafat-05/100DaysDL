@@ -26,9 +26,13 @@
 
 `উপরের ছবি গুলো 3D । আমাদের ডাটাসেটে এমন ভ্যালু হলে এক axis এ solpe change হয় অন্য axis এ solpe change হয় না। এই সমস্যাকে solve করে AdaGrad । `
 
-### Let's see SGD, Momentum Optimization, NAG এ কি প্রবলেম হচ্ছে । 
+### Let's see BGD, Momentum Optimization, NAG এ কি প্রবলেম হচ্ছে । 
+
+` (BGD) `
 
 ![Alt text](image-211.png)
 
+`Momentum Optimizer (decay = 0.5 )`
 
+![Alt text](image-212.png)
 
