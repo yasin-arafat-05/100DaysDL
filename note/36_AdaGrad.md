@@ -47,4 +47,10 @@
 `Sparse data থাকার কারণে, BGD এর ক্ষেত্রে differentiation করলে অনেক বার শূন্যের কাছাকাছি মান আসবে । অন্যদিকে, bias এর ক্ষেত্রে তা হবে না তাই bias update অনেক বেশি হবে ।  `
 
 
+# Mathematical Intution (AdaGrad):
+
+![Alt text](image-215.png)
+
+`আমরা দেখলাম যে, Sparse data থাকার কারণে, একটার differentiation অনেক ছোট হয় আর আরেকপাশের differentiation অনেক বড় হয় । এই সমস্যার সমাধান করে AdaGrad । কারণ, AdaGrad এ learning rate change হয় । যখন আমাদের derivative অনেক বড় হয় তখন learning rate ছোট হয়, আবার যখন, আমাদের derivative ছোট হয় তখন আমাদের learning rate বড় হয় । এইভাবে AdaGrad, learning rate change করার মাধ্যমে Sparse data থাকার কারণে যে সমস্যা হয় তার সমাধান করে । `
+
 
