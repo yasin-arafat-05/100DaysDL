@@ -42,5 +42,9 @@
 
 `M তে sparse value আছে আর B তে নেই তেমন । শুরুতে, যেইদিকে( M  তে ) sparse value আছে সেইদিকের axis এ solpe change হয় না তেমন । কিন্তু, শুরুতে, যেইদিকে( B  তে ) sparse value নেই সেইদিকের axis এ solpe change হয়েছে অনেক। `
 
+![Alt text](image-214.png)
+
+`Sparse data থাকার কারণে, BGD এর ক্ষেত্রে differentiation করলে অনেক বার শূন্যের কাছাকাছি মান আসবে । অন্যদিকে, bias এর ক্ষেত্রে তা হবে না তাই bias update অনেক বেশি হবে ।  `
+
 
 
