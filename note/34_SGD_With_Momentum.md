@@ -73,4 +73,17 @@
 `Non-convex এর ক্ষেত্রে আমরা যেই সমস্যা গুলো ফেইস গুলো সব গুলোকে Momentum Optimizer solve করতে পারে । `
 
 
+![Alt text](image-193.png)
+
+`momentum optimization বলতে বুঝি, আমাদের আগের gradient যদি আমাদের সামনের দিকে যেতে বলে তাহলে আমরা সামনের দিকে যাবো । অর্থাৎ, এইটা একটা curve surface এ curve surface এর উপর থেকে কোন একটা বল গড়িয়ে পড়ার মতো তাই এই optimization এর নাম হচ্ছে momentum optimizer  । আমরা জানি, momentum = mass * velocity . আমরা একটা unit mass ধরে পূর্বের gradient থেকে velocity calculate করি । `
+
+![Alt text](image-195.png)
+
+`আমরা Exponentially Weighted Moving Average এর সাহায্য নিয়ে velocity calculate করি । ফর্মুলা V_t দিয়ে দেখানো হয়েছে আর এই ক্ষেত্রে আমরা Weighte calculate করি ডানপাশের W_t+1 formula দিয়ে । আমরা দেখতে পাচ্ছি যে, এ velocity আগের velocity এর উপর নির্ভর করতেছে ।`
+
+![Alt text](image-196.png)
+
+`See the benifit of using SGD with momentum . Traning সময় SGD এর থেকে অনেক কম লাগবে ।  `
+
+
 
