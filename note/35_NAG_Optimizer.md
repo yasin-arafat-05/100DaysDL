@@ -40,3 +40,25 @@
 `আমরাদের momentum optimizer এ weight update এর ক্ষেত্রে (history of velocity)_(Beta * V_t-1) + (gradient) এর উপর নির্ভর করতেছে । momentum optimizer আমরা শুরুতে  (history of velocity) calculation করে প্রথমে সামনের দিকে একটা jump নেই তারপর আমরা এর gradient calculation করে আবার সামনের দিকে jump নেই । তাই, আমাদের  momentum optimizer এর থেকে Nesterov Accelerated Gradient fast বেশি হয় । `
 
 
+![Alt text](image-205.png)
+
+`প্রথমে আমরা তো Momentum এর জন্য jump নেই একে look ahed বলে ।  `
+
+# Geometric Intuition:
+
+![Alt text](image-206.png)
+
+- `Momentum Optimizer: Momentum সামনের দিকে gradient পিছনের দিকে । দুইটার নেট করে করতে পারে না । তাই আমাদের যদিও পিছনের দিকে আসার কথা কিন্তু না করার কারণে আমরা সামনেই দিকেই যাচ্ছি । `
+
+- `Nesterov Accelerated Gradient: Momentum সামনের দিকে gradient পিছনের দিকে । আমরা পিছনে চলে আসি । `
+
+
+# Disadvantage of NAG:
+
+![Alt text](image-207.png)
+
+- `Local minima তে ফেঁসে যেতে পারে । `
+
+
+
+
