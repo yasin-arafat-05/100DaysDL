@@ -16,4 +16,19 @@
 
 - `ii) আমাদের feature এ যদি অনেক sparse value  থাকে । In our dataset for a particular column(from IIT) most of the value is zero । `
 
+#### `Feature, sparse  হলে Elongated Bowl Problem  দেখা দেয় । `
+
+![Alt text](image-209.png)
+
+`Feature, sparse হলে আমাদের contour plot, circle এর পরির্বতে একটু ellipse আকারের হয়ে থাকে। `
+
+![Alt text](image-210.png)
+
+`উপরের ছবি গুলো 3D । আমাদের ডাটাসেটে এমন ভ্যালু হলে এক axis এ solpe change হয় অন্য axis এ solpe change হয় না। এই সমস্যাকে solve করে AdaGrad । `
+
+### Let's see SGD, Momentum Optimization, NAG এ কি প্রবলেম হচ্ছে । 
+
+![Alt text](image-211.png)
+
+
 
