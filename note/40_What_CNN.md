@@ -54,6 +54,9 @@
 
 `প্রথমে আমাদের brain ছবি গুলো ভাগ করে prattern খুঁজে যে এর মধ্যে একটা circle একটা  horizontal line আর একটা vertical line আছে কি না । থাকলে, সেই ছবিতে থাকা সংখ্যাটি ৯ হওয়ার সম্ভবনা অনেক বেশি । CNN প্রথমে identify করে edges কে তারপর আরেকটা complex structure বা feature (semi-circle) বানায়, তারপর আর একটু  complex structure বা feature (circle) বানায় এইভাবে একটা ছবিকে identify করে CNN ।  `
 
+![Alt text](image-233.png)
+
+`প্রথমে আমরা একটা ছবিতে filter move করিয়ে দেখি existing কিছু feature ছবিতে আছে কি না । তাকলে সেই feature গুলো active গুলো যায় । তারপর, activated feature গুলো একটা convolutional layer এর মধ্য দিয়ে যেয়ে আর একটা complex pattern make করে তারপর আরেকটা convolutional layer এর মধ্য দিয়ে যেয়ে আরেকটু complex pattern তৈরি করার মাধ্যমে কোন ছবিকে identify করে ।  `
 
 
 
