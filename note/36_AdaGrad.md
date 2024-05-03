@@ -64,14 +64,12 @@
 
 ![Alt text](image-218.png)
 
-`AdaGrad কে আমরা একটা নাম্বার v_t(exponentially weighted moving average) দিয়ে ভাগ দেই । আমরা যত global minima এর দিকে যায় তত v_t এর মান বাড়তে থাকে ফলে learning rate কমতে থাকে, Weight update এর পরিমাণ ও ধীরে ধীরে কমতে থাকে । `
-
+`AdaGrad কে আমরা একটা নাম্বার v_t(exponentially weighted moving average) দিয়ে ভাগ দেই । আমরা যত global minima এর দিকে যায় তত v_t এর মান বাড়তে থাকে(V_t calculation এর সময় আমরা আগের V_t এর সাথে সাথে যোগ করি তাই সময়ের সাথে সাথে v_t বাড়ে) ।  ফলে learning rate কমতে থাকে, Weight update এর পরিমাণ ও ধীরে ধীরে কমতে থাকে । `
 
 ---
 
 `RMSProp, Adam Optimizer পড়বো সেখানে, Adagrad এর concept কাজে লাগবে । `
 
 ---
-
 
 
