@@ -19,7 +19,7 @@
 
 ![Alt text](image-222.png)
 
-`উপরের, calculation থেকে আমরা বলতে পারি, 1st epoch এর value সবচেয়ে কম তারপর  2nd epoch এর value আর একটু বেশি আর সবচেয়ে বেশি হচ্ছে  3rd epoch এর value । `
+`উপরের, calculation থেকে আমরা বলতে পারি, 1st epoch এর value সবচেয়ে কম তারপর  2nd epoch এর value আর একটু বেশি আর সবচেয়ে বেশি হচ্ছে  3rd epoch এর value । তাই একে আমরা exponentially decaying average বলি । `
 
 
 
