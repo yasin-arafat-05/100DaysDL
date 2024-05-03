@@ -56,8 +56,29 @@
 
 ![Alt text](image-233.png)
 
-`প্রথমে আমরা একটা ছবিতে filter move করিয়ে দেখি existing কিছু feature ছবিতে আছে কি না । তাকলে সেই feature গুলো active গুলো যায় । তারপর, activated feature গুলো একটা convolutional layer এর মধ্য দিয়ে যেয়ে আর একটা complex pattern make করে তারপর আরেকটা convolutional layer এর মধ্য দিয়ে যেয়ে আরেকটু complex pattern তৈরি করার মাধ্যমে কোন ছবিকে identify করে ।  `
+`প্রথমে আমরা একটা ছবিতে filter move করিয়ে দেখি existing কিছু feature ( primitive feature, or edges ) ছবিতে আছে কি না । থাকলে সেই feature গুলো active গুলো যায় । তারপর, activated feature গুলো একটা convolutional layer এর মধ্য দিয়ে যেয়ে আর একটা complex pattern make করে তারপর আরেকটা convolutional layer এর মধ্য দিয়ে যেয়ে আরেকটু complex pattern তৈরি করার মাধ্যমে কোন ছবিকে identify করে ।  This process is called feature extraction । `
 
 
+# Use of CNN:
+
+- `Image Classification: কোন একটা image এ কিসের ছবি আসে । বাঘ, ভাল্লুক etc. `
+
+- `Object Localization : কোন একটা Object এর  Location যেনে তার চার পাশে rectangular box দিয়ে bound করা ।  `
+
+- ` Object Detection: Use in self-driving car.`
+
+- ` Face Recognition : `
+
+- `Image segmentaion: Image কে বিভিন্ন segment এ divide করা। Use in self-driving car. `
+
+- `Super Resolution : কোন ছবির resolution বাড়াতে পারি । `
+
+- `Convert Black white photo into color photo.`
+
+- `Pose ditection of a human. `
+
+# Roadmap:
+
+![Alt text](image-234.png)
 
 
