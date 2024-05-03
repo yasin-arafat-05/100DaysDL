@@ -53,4 +53,25 @@
 
 `আমরা দেখলাম যে, Sparse data থাকার কারণে, একটার differentiation অনেক ছোট হয় আর আরেকপাশের differentiation অনেক বড় হয় । এই সমস্যার সমাধান করে AdaGrad । কারণ, AdaGrad এ learning rate change হয় । যখন আমাদের derivative অনেক বড় হয় তখন learning rate ছোট হয়, আবার যখন, আমাদের derivative ছোট হয় তখন আমাদের learning rate বড় হয় । এইভাবে AdaGrad, learning rate change করার মাধ্যমে Sparse data থাকার কারণে যে সমস্যা হয় তার সমাধান করে । `
 
+![Alt text](image-216.png)
+
+
+`Actually, Formula.  `
+
+![Alt text](image-217.png)
+
+# Disadvantage of Adagrad:
+
+![Alt text](image-218.png)
+
+`AdaGrad কে আমরা একটা নাম্বার v_t(exponentially weighted moving average) দিয়ে ভাগ দেই । আমরা যত global minima এর দিকে যায় তত v_t এর মান বাড়তে থাকে ফলে learning rate কমতে থাকে, Weight update এর পরিমাণ ও ধীরে ধীরে কমতে থাকে । `
+
+
+---
+
+`RMSProp, Adam Optimizer পড়বো সেখানে, Adagrad এর concept কাজে লাগবে । `
+
+---
+
+
 
