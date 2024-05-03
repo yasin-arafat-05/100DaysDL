@@ -21,5 +21,9 @@
 
 `উপরের, calculation থেকে আমরা বলতে পারি, 1st epoch এর value সবচেয়ে কম তারপর  2nd epoch এর value আর একটু বেশি আর সবচেয়ে বেশি হচ্ছে  3rd epoch এর value । তাই একে আমরা exponentially decaying average বলি । `
 
+# Disadvantage:
+
+`RMSProp এর কোন Disadvantage নেই । কিন্তু, RMSProp এর থেকে ভালো আরেকটা optimizer (Adam) আমাদের কাছে আছে । যদি কোন সমস্যার সমাধান আমরা Adam দিয়ে না পায় তাহলে, Adam এর পর আমরা  সেইটা RMSProp use করি । `
+
 
 
