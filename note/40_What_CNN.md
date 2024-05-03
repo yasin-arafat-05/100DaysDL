@@ -38,5 +38,15 @@
 
 - `High Computational Cost: ANN এ Image কে input দেওয়ার জন্য 2D image কে আমরা 1D তে convert করে Row by Row উপরের চিত্রের মতো input দেই । আমাদের কাছে যদি 40x40 এর একটা image থাকে তাহলে 40*40 = 1600 আর যদি input layer এ 100 node থাকে তাহলে আমাদের  input layer weight হবে 1600*100 = 160000 আর যদি ছবিটা 1000x1000  আকারের হয় তাহলে তো আর কোন কথায় নেই 1000*1000*100 = 100000000 weight হবে । `
 
+- `Overfitting: আমরা যেহেতু ছবির row by row input এ দিতেছি, এর ফলে image এর minor জিনিস গুলোও capture  হবে এর ফলে  Overfitting prbolem হবে । `
+
+- `Loss of important information like spatial arrangement of pixel: 1D তে ডাটা input দেওয়ার ফলে আমরা ছবিতে বানরটির eye,nose আর mouth এর মধ্যকার দুরত্ব হারিয়ে ফেলবো এর ফলে এইটা কার চেহারা সেইটা identify করতে পারবো না। `
+
+# Intution of CNN:
+
+#### `একটা ছবিতে 9 আছে কি না তা CNN দিয়ে দেখবো । `
+
+![Alt text](image-231.png)
+
 
 
