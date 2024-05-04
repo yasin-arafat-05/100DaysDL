@@ -97,5 +97,16 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 
 # -------------------------------------------------------------------
 
+### `Observe the horizontal Edge Dector: `
+
+![Alt text](image-243.png)
+
+### `Observe the vertical Edge Dector:  `
+
+(filter for vertical edge dector)
+
+![Alt text](image-244.png)
+
+`In deep learing, we fill the filter value randomly তারপর এই filter এর উপর backpoprogation কাজ করে কেমন output দিবে তা নিজেই decide করে । `
 
 
