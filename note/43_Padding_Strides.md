@@ -50,6 +50,12 @@
 `Strides এর Dimention করলে আমাদের feature map এ dimention কমে যায় যেইটা উপরের formula দিয়ে আমরা নির্ণয় করতে পারি । `
 
 
+### Special Case:
+
+![Alt text](image-254.png)
+
+`Strides ব্যবহার করা পর feature map এ dimention বের করার জন্য উপরের যেই formula তে decimal ভ্যালু আসতে পারে সেই ক্ষেত্রে আমরা floor নেই । কারণ, calculation করার সময় pixel value short পড়েছে । `
+
 
 
 
