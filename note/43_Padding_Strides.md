@@ -18,5 +18,20 @@
 `zero দিয়ে padding করার পর (Actual image 5x5, After padding 7x7) হলে আমরা আউটপুট হিসেবে input image এর সমান dimention এর আউট পায় । `
 
 
+![Alt text](image-251.png)
+
+`kears এ দুইধনের filter আছে । i)Valid দিলে Actual image পরিবর্তিত করে ।   আর ii)Same দিলে kears, Actual image অপরিবর্তিত রাখে । `
+
+
+---
+
+<br>
+
+## Code Demo of Keras:
+
+<br>
+
+---
+
 
 
