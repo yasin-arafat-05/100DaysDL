@@ -23,5 +23,10 @@
 ![Alt text](image-256.png)
 
 
-``
+`Convolution Operation করার সময় relu activation function ব্যবহার করি ফলে আমাদের feature map এ non-liner ডাটা capture হয় । Non-linear feature map পাওয়ার পর আমরা pooling করি । Pooling হয়ে থাকে i) Max pooling ii) Min pooling iii) Average pooling iv) L2 pooling v) Global pooling .  `
+
+![Alt text](image-257.png)
+
+`Picture এ যেই 4x4 দেখা সেইটা হচ্ছে  Non-linear feature map । pooling করার জন্য আমাদের তিনটা হচ্ছে i) size,generally (2x2) হয়ে থাকে । ii) stride, generally 2 । iii) type (max pooling) । Output হিসেবে 2x2 এর feature map পাবো । size (2x2) হওয়ার আর type = (max pooling) হওয়ার প্রথম ক্ষেত্রে, max(3,1,2,5) =5, max(1,3,0,2)=3, max(1,4,4,7) = 7, max(2,1,2,4) = 4, feature map[5,3,7,4] । `
+
 
