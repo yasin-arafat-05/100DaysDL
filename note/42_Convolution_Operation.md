@@ -109,7 +109,7 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 
 `In deep learing, we fill the filter value randomly তারপর এই filter এর উপর backpoprogation কাজ করে কেমন output দিবে তা নিজেই decide করে । `
 
-### [visulize_for_websites](https://deeplizard.com/resource/pavq7noze2)
+### [visulize_website_link](https://deeplizard.com/resource/pavq7noze2)
 
 
 ## Shape of the output:
@@ -128,4 +128,11 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 ` এখানে, আমরা একটা RGB image এ filter/kernal দিয়ে convolve করলে feature map এর আউটপুট পাই 1 Channel এর ।  `
 
 
+# Multiple Filters:
+
+` Normally, আমরা একের অধিক Filters ব্যবহার করি । যেমনঃ একটা Filter  horizonal edge dectect করার জন্য অন্য আরেকটা Filter vertical edge dectect করার জন্য ।  `
+
+![Alt text](image-248.png)
+
+`আমাদের কাছে যত গুলো Filter থাকবে আমরা তত গুলো আমরা তত গুলো  feature map  পাবো । উপরের ছবিতে আমাদের দুইটা Filter আছে আমরা তাই দুইটা feature map পাবো । এই feature map দুটোকে আবার 4x4x2 হিসেবে চিন্তা করা যায় । এই 4x4x2 পরবর্তী layer এ  input হিসেবে কাজ করবে, এখানে, দুই হচ্ছে number of filter ।`
 
