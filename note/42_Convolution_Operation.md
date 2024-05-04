@@ -42,10 +42,10 @@
 
 ## `Convolution Operation:`
 In convolution, we basically apply a mathematical operator to each pixel and change its value in some way. To apply this mathematical operator, we use another matrix called a kernel.<br>
-![Alt text](/photo/image9.png)
+![Alt text](/note/photo/image9.png)
 
 `Calculation:`
-![Alt text](/photo/image10.png)
+![Alt text](/note/photo/image10.png)
 
 `কিন্তু আমরা যেহেতু, 3x3, 5x5 or oddxodd ব্যবহার করে  kernal এর middle point বরাবর output বসাচ্ছি, input এর শুরুতে যেইটা আছে সেইটা জন্য আমরা kearnal ব্যবহার করতে পারবো না । এর জন্য আমাদের padding with zero(i) এবং wrap around (ii). `
 
@@ -83,7 +83,7 @@ Frequency refers to the rate of change of pixel values. So we can say that the s
 # Applying Custom Filters to Image:
 ### Ex- Blurring an Image:
 
-![Alt text](/photo/image11.png)
+![Alt text](/note/photo/image11.png)
 
 <br>
 **Function Used:**
