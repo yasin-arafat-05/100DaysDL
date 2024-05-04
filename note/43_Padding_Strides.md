@@ -38,4 +38,11 @@
 
 
 
+# __________ Strides __________:
+
+
+![Alt text](image-252.png)
+
+`convolve করার পর আমরা এক  step  ডানের দিকে যায় একে বলে Strides উপরের ক্ষেত্রে Strides=1 । `
+
 
