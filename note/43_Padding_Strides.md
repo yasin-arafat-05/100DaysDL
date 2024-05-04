@@ -28,7 +28,7 @@
 
 <br>
 
-## Code Demo of Keras:
+## Code Demo in Keras:
 
 <br>
 
@@ -57,6 +57,27 @@
 `Strides ব্যবহার করা পর feature map এ dimention বের করার জন্য উপরের যেই formula তে decimal ভ্যালু আসতে পারে সেই ক্ষেত্রে আমরা floor নেই । কারণ, calculation করার সময় pixel value short পড়েছে । `
 
 
+#### Stride  ব্যবহার করলে আমরা তাকে Stride Convolution বলি । 
 
+
+# Why we use Stride ?
+
+- `Stride value বেশি থাকলে শুধু High level feature dectect হবে । `
+- `কোন বড় Dataset নিয়ে কাজ করলে Computing পাওয়ার কম করার জন্য Stride ব্যবহার করা হয় । `
+
+
+<br>
+
+---
+
+<br>
+
+## Code Demo in Keras:
+
+<br>
+
+---
+
+<br>
 
 
