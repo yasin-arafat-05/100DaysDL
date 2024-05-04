@@ -109,4 +109,23 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 
 `In deep learing, we fill the filter value randomly তারপর এই filter এর উপর backpoprogation কাজ করে কেমন output দিবে তা নিজেই decide করে । `
 
+### [visulize_for_websites](https://deeplizard.com/resource/pavq7noze2)
+
+
+## Shape of the output:
+
+![Alt text](image-245.png)
+
+
+# Working with RGB image:
+
+![Alt text](image-246.png)
+
+
+![Alt text](image-247.png)
+
+
+` এখানে, আমরা একটা RGB image এ filter/kernal দিয়ে convolve করলে feature map এর আউটপুট পাই 1 Channel এর ।  `
+
+
 
