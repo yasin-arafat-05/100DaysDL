@@ -51,6 +51,32 @@
 - `Instead of relu use the variants of relu.`
 
 # Variants of relu:
-- `Linear `
-- `Non Linear`
+- `Linear :  i) Leaky Relu  ii) Parametric Relu `
+- `Non Linear : i) ELU (Exponential linear unit) ii) SELU (Scaled Exponential linear unit) . `
+
+
+# Leaky Relu:
+
+![Alt text](image-258.png)
+
+` max(0.01z,z) 0.01z or ( 1/100 * z ) থাকার কারণে daying Relu prblem দেখা যায় না । আগে যেখানে, zero থাকার কারণে weight এ কোন change হচ্ছিলো না এখন সেইখানে অল্প কিছু হবে । `
+
+![Alt text](image-259.png)
+
+`বাম পাশের গ্রাফটি হচ্ছে Relu and Reaky Relu  এর গ্রাফ । আর ডান পাশের, graph of derivative of Relu and Reaky Relu । `
+
+
+# Advantage of Reaky Relu:
+
+![Alt text](image-260.png)
+
+
+### In Reaky Relu why 0.01z ? 
+
+# Parametric Relu:
+
+![Alt text](image-261.png)
+
+`Reaky Relu এর মতোয় কিন্তু আগে যেখানে 0.01 নিয়ে ছিলাম সেখানে নিজের ইচ্ছের মতো ভ্যালু নিতে পারি যেইটা আলফা দিয়ে দেখানো হয়েছে । এর জন্য আমরা একটা fexibility পায় । এছাড়া বাকী সব কিছু একদম Reaky Relu এর মতোয় । `
+
 
