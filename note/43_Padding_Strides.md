@@ -22,6 +22,7 @@
 
 `kears এ দুইধনের filter আছে । i)Valid দিলে Actual image পরিবর্তিত করে ।   আর ii)Same দিলে kears, Actual image অপরিবর্তিত রাখে । `
 
+<br>
 
 ---
 
@@ -32,6 +33,9 @@
 <br>
 
 ---
+
+<br>
+
 
 
 
