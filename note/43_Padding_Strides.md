@@ -43,7 +43,12 @@
 
 ![Alt text](image-252.png)
 
-`convolve করার পর আমরা এক  step  ডানের দিকে যায় একে বলে Strides উপরের ক্ষেত্রে Strides=1 । আবার একটা row complete করার পর আমরা যখন নিচের যাবো তখনও একধাপ নিচে নামচ্ছি । এক্ষেত্রেও Strides=1 । অর্থাৎ, আমাদের Strides এর Dimention  হলো 1x1 ।  আমরা Strides এর Dimention 2x2 ও করতে পারি । `
+`convolve করার পর আমরা এক step ডানের দিকে যায় একে বলে Strides উপরের ক্ষেত্রে Strides=1 । আবার একটা row complete করার পর আমরা যখন নিচের যাবো তখনও একধাপ নিচে নামচ্ছি । এক্ষেত্রেও Strides=1 । অর্থাৎ, আমাদের Strides এর Dimention  হলো 1x1 ।  আমরা Strides এর Dimention 2x2 ও করতে পারি । Strides এর Dimention 2x2 করার পর আমরা আগে যেখানে একটা step নিতেছিলাম এখন সেইখানে দুইটা করে নিব । এখন, Strides এর Dimention 2x2 করার ফলে আমাদের feature map এ কি কি impact পড়বে ।  `
+
+![Alt text](image-253.png)
+
+`Strides এর Dimention করলে আমাদের feature map এ dimention কমে যায় যেইটা উপরের formula দিয়ে আমরা নির্ণয় করতে পারি । `
+
 
 
 
