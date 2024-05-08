@@ -35,7 +35,16 @@
 
 ![Alt text](image-272.png)
 
-`LeNet LeNet-5 5 layer . (32x32) image 6 filters of size (5x5), avg pooling layer of (2x2) of stride size of 2 repeat the process . Then do flatten and then fully connected layer with 120 neuron, then one fully connected layer with 84 neuron, as the final output (10 node) because they need to identify 10 digits. `
+`LeNet কে LeNet-5 ও বলে কারণ, এতে 5 layer থাকে । উপরের ছবির উহাঃ হিসেবে, (32x32) এর image ইনপুট হিসেবে ব্যবহার করা হয়েছে । তারপর এখানে,  6 filters of size (5x5) আছে, তারপর avg pooling layer of (2x2) of stride size of 2 ব্যবহার করে, process টা repeat করবো । Then আমরা flatten করবো, তারপর আমরা সেইটা fully connected layer with 120 neuron এর সাথে connect করবো তারপর আরেকটা fully connected layer with 84 neuron এর সাথে connect করবো । as the final output (10 node) because they need to identify 10 digits । `
+
+
+---
+
+# Code Implementation:
+
+---
+
+
 
 
 
