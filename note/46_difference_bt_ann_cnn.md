@@ -15,4 +15,11 @@
 
 ![Alt text](image-274.png)
 
+# Similarity:
+
+![Alt text](image-275.png)
+
+`IN ANN Weights are trainable parameter, In a filter, filter value are also trainable parameter । ANN এ আমরা Weights গুলো সাথে input value গুন করে তার সাথে bias যোগ করে activation function এর মধ্যে দিই । CNN ও এমন হয়, আমরা filter value এর সাথে image এর pixel value  গুন করে তার সাথে bias যোগ করে activation function এর মধ্যে দিই ।  ` 
+
+
 
