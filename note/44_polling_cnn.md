@@ -56,5 +56,43 @@
 <br>
 
 
+# Advantage of pooling:
+
+
+### ` Reduce Size: `
+
+![Alt text](image-264.png)
+
+
+### `Translation in variance: Independent from Location.`
+
+![Alt text](image-265.png)
+
+### `Enhanced Features (only for max pooling )`
+
+- `max pooling এ আমরা শুধু maximum value নিতেছি যেইটা শুধু higher feature কে extract করে ।`
+
+![Alt text](image-266.png)
+
+### `No Need Of Traning: `
+
+`(beacuse max pooling হচ্ছে aggregate operation. )`
+
+
+# Types of pooling:
+
+![Alt text](image-267.png)
+
+`Global maxpooling এ আমরা  1D array তে convert করি । maximum value নেই । `
+
+# Disadvantage of pooling:
+
+- `In image segmentation, we don't use pooling beacuse location matters . `
+
+- `We loose a lot of information. `
+
+![Alt text](image-268.png)
+
+
 
 
