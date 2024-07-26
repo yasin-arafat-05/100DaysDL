@@ -6,7 +6,7 @@
 Activation functions are a crucial part of neural networks, determining the output of a model's node given an input or set of inputs. The choice of activation function can significantly impact the performance and convergence of a model. Here are common activation functions and the types of problems where they are typically used:
 
 ### 1. **Sigmoid Activation Function**
-- **Formula:** \( \sigma(x) = \frac{1}{1 + e^{-x}} \)
+- **Formula:** $\sigma(x)$ = $\frac{1}{1 + e^{-x}}$
 - **Range:** (0, 1)
 - **Properties:** Non-linear, causes vanishing gradient problem, not zero-centered.
 - **Use Cases:** 
@@ -14,7 +14,7 @@ Activation functions are a crucial part of neural networks, determining the outp
   - **Output Layer of Binary Classifiers:** Commonly used in the output layer to produce a probability value.
 
 ### 2. **Tanh (Hyperbolic Tangent) Activation Function**
-- **Formula:** \( \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \)
+- **Formula:** $\tanh(x)$ = $\frac{e^x - e^{-x}}{e^x + e^{-x}}$
 - **Range:** (-1, 1)
 - **Properties:** Non-linear, zero-centered, also suffers from the vanishing gradient problem.
 - **Use Cases:**
@@ -22,7 +22,7 @@ Activation functions are a crucial part of neural networks, determining the outp
   - **Recurrent Neural Networks (RNNs):** Commonly used in the hidden layers of RNNs.
 
 ### 3. **ReLU (Rectified Linear Unit) Activation Function**
-- **Formula:** \( \text{ReLU}(x) = \max(0, x) \)
+- **Formula:** $\text{ReLU}(x)$ = $\max(0, x)$
 - **Range:** [0, ∞)
 - **Properties:** Non-linear, helps mitigate the vanishing gradient problem, can suffer from dying ReLUs.
 - **Use Cases:**
@@ -30,7 +30,7 @@ Activation functions are a crucial part of neural networks, determining the outp
   - **Image Classification and Object Detection:** Due to its simplicity and effectiveness in deep networks.
 
 ### 4. **Leaky ReLU Activation Function**
-- **Formula:** \( \text{Leaky ReLU}(x) = \begin{cases} x & \text{if } x \geq 0 \\ \alpha x & \text{if } x < 0 \end{cases} \)
+- **Formula:** $\text{Leaky ReLU}(x)$ = $\begin{cases} x & \text{if } x \geq 0 \\ \alpha x & \text{if } x < 0 \end{cases}$
 - **Range:** (-∞, ∞)
 - **Properties:** Non-linear, allows a small gradient when the unit is not active (α is a small constant, e.g., 0.01).
 - **Use Cases:**
@@ -38,7 +38,7 @@ Activation functions are a crucial part of neural networks, determining the outp
   - **Speech and Image Processing:** Applied in networks requiring non-zero gradient for negative inputs.
 
 ### 5. **ELU (Exponential Linear Unit) Activation Function**
-- **Formula:** \( \text{ELU}(x) = \begin{cases} x & \text{if } x \geq 0 \\ \alpha (e^x - 1) & \text{if } x < 0 \end{cases} \)
+- **Formula:** $\text{ELU}(x)$ = $\begin{cases} x & \text{if } x \geq 0 \\ \alpha (e^x - 1) & \text{if } x < 0 \end{cases}$
 - **Range:** (-α, ∞)
 - **Properties:** Non-linear, helps mitigate the vanishing gradient problem, smooth gradient for negative values.
 - **Use Cases:**
@@ -46,7 +46,7 @@ Activation functions are a crucial part of neural networks, determining the outp
   - **Various Applications:** Used in different types of neural networks.
 
 ### 6. **Softmax Activation Function**
-- **Formula:** \( \text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_{j} e^{x_j}} \)
+- **Formula:** $\text{Softmax}(x_i)$ = $\frac{e^{x_i}}{\sum_{j} e^{x_j}}$
 - **Range:** (0, 1) with outputs summing to 1
 - **Properties:** Converts logits to probabilities, used in multi-class classification.
 - **Use Cases:**
@@ -54,7 +54,7 @@ Activation functions are a crucial part of neural networks, determining the outp
   - **Neural Machine Translation (NMT):** In the output layer to predict the next word.
 
 ### 7. **Swish Activation Function**
-- **Formula:** \( \text{Swish}(x) = x \cdot \sigma(x) \)
+- **Formula:** $\text{Swish}(x)$ = $x \cdot \sigma(x)$
 - **Range:** (-∞, ∞)
 - **Properties:** Non-linear, smooth curve, mitigates vanishing gradient problem, self-gated.
 - **Use Cases:**
