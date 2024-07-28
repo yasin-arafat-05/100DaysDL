@@ -39,6 +39,6 @@
 ![image-282](image-282.jpeg)
 <br>
 <br>
-S
+
 ---
 ---
