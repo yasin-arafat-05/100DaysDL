@@ -31,7 +31,7 @@
 - Dummy Coding Scheme
 - Effect Coding Scheme
 
-![Alt text](image-50.png)
+![Alt text](img/image-50.png)
 
 ### One hot Encoding:
  এক্ষেত্রে আমরা একটা vector make করবো । যেমনঃ উপরের উদাহারনে Weather categorical data এর  ৩ টা label (sunny,cloudy,rainy) আছে । এর মধ্যে যার ভ্যালু true হবে vector এ একটা sequence অনুয়ায়ী সেই vector এর component এর মান ১ হবে বাকি গুলো ০ হবে । 
