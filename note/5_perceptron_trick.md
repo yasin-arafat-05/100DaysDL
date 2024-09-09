@@ -1,7 +1,7 @@
 
 # Perceptron Trick:
 
-![Alt text](image-11.png)
+![Alt text](img/image-11.png)
 
 In, X-axis we have cgpa.
 <br>
@@ -18,7 +18,7 @@ Green -> Placement done.
  এখন এই straight line  টা কিভাবে বের করবো (the value of A, B and C) এর জন্য আমারা Perception Trick শিখবো । 
 As the perceptron model is like binary classification that’s why we call the perceptron a binary classifier.
 
-![Alt text](image-12.png)
+![Alt text](img/image-12.png)
 
 আমরা প্রথমে একটা লাইন নিব randomly,  উপরের চিত্রে x-axis এর -2 and -1 এর মাঝের লাইন টা নিয়েছি । তারপর x-axis এ  -1 উপর যে point  টা আছে তাকে  ask করবো তুমি কি তোমার সঠিক জায়গায় আছো ??? তোমার কি placement  হবে ???  <br>
 Ans: no . <br>
@@ -46,7 +46,7 @@ Y - axis কে কেন্দ্র করে
 ### Where a Point is lying the positive region or negative region or on the line?
 For, 2x + 3y + 5 =0 line,
 
-![Alt text](image-13.png)
+![Alt text](img/image-13.png)
 
 ( Red region line equation given in the picture.)
 ( Blue region line equation given in the picture. )
@@ -55,11 +55,11 @@ For, 2x + 3y + 5 =0 line,
 For, -2x + 3y -5 =0 line,
 <br>
 
-![Alt text](image-14.png)
+![Alt text](img/image-14.png)
 
 # Example: 
 
-![Alt text](image-15.png)
+![Alt text](img/image-15.png)
 
 Transform this . blue point for placement ( যেইটা blue point এর direction যেইদিকে দেওয়া আছে সেইদিকে রাখতে হবে simillary for green point)  . And the equation of the line is,  
 
@@ -70,7 +70,7 @@ Transform this . blue point for placement ( যেইটা blue point এর di
 ### Solution: 
 Step to follow to transform the line given below: 
 
-![Alt text](image-16.png)
+![Alt text](img/image-16.png)
 
 
 (4,5) point টা red line এর +ve region এ আসে, কিন্তু সঠিক orientation এর জন্য একে (2x+3y+5=0) এর  negative region এ নিয়ে আসবে হবে । তাই আমরা প্রথমে base line(2x+3y+5=0) এর সহগ গুলো লিখে (2,3,5) এর নিচে সেই (4,5)এর সাথে 1 add করবো (4,5,1) then subtraction করবো ।  <br>
@@ -90,7 +90,7 @@ New co-efficient = old coefficient - (learning rate * 1 adding points)
 
 ### Algorithm To Solve A Problem:
 
-![Alt text](image-17.png)
+![Alt text](img/image-17.png)
 
-![Alt text](image-18.png)
+![Alt text](img/image-18.png)
 
