@@ -5,7 +5,7 @@
 
 ---
 
-![Alt text](image-226.png)
+![Alt text](img/image-226.png)
 
 `ANN এ আমরা Matrix Multiplication Use করি অন্যদিকে CNN এ Convolution layer নামে একধরনের layer থাকে সেই layer গুলোতে আমরা একটা special operation perform এই operation কে  Convolution Operation বলে । ছবিতে, convolution layer এর নিচে convolution লিখা আছে । যদি কোন Neural Network এ একটাও Convolution layer থাকে তাহলে আমরা বুঝতে এখানে CNN করা হয়েছে । CNN এ ৩ ধরনের layer থাকেঃ `
 
@@ -15,24 +15,24 @@
 
 <br>
 
-![Alt text](image-227.png)
+![Alt text](img/image-227.png)
 
 <br>
 
-![Alt text](image-228.png)
+![Alt text](img/image-228.png)
 
 <br>
 
 ### CNN is Inspired From Human Vision (Visual Cortex)
 
 
-![Alt text](image-229.png)
+![Alt text](img/image-229.png)
 
 `CNNs were pioneered by Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner in the late 1980s and early 1990s. Their initial purpose was to process visual data for tasks such as handwritten digit recognition.`
 
 # ANN Vs CNN
 
-![Alt text](image-230.png)
+![Alt text](img/image-230.png)
 
 `আমরা CNN এর প্রবলেম গুলো ANN দিয়ে করতে পারি । যেমনঃ MNIST Data set এ আমরা ANN 98% Accuracy অর্জন করেছিলাম ।  কিন্তু, এতে আমরা কিছু সমস্যার সম্মুখীন হই ।  `
 
@@ -46,15 +46,15 @@
 
 #### `একটা ছবিতে 9 আছে কি না তা CNN দিয়ে দেখবো । `
 
-![Alt text](image-231.png)
+![Alt text](img/image-231.png)
 
 #### `Brain কীভাবে বুঝে যে একটা লিখা আছে আর সেই লিখাটা হচ্ছে ৯  । `
 
-![Alt text](image-232.png)
+![Alt text](img/image-232.png)
 
 `প্রথমে আমাদের brain ছবি গুলো ভাগ করে prattern খুঁজে যে এর মধ্যে একটা circle একটা  horizontal line আর একটা vertical line আছে কি না । থাকলে, সেই ছবিতে থাকা সংখ্যাটি ৯ হওয়ার সম্ভবনা অনেক বেশি । CNN প্রথমে identify করে edges কে তারপর আরেকটা complex structure বা feature (semi-circle) বানায়, তারপর আর একটু  complex structure বা feature (circle) বানায় এইভাবে একটা ছবিকে identify করে CNN ।  `
 
-![Alt text](image-233.png)
+![Alt text](img/image-233.png)
 
 `প্রথমে আমরা একটা ছবিতে filter move করিয়ে দেখি existing কিছু feature ( primitive feature, or edges ) ছবিতে আছে কি না । থাকলে সেই feature গুলো active গুলো যায় । তারপর, activated feature গুলো একটা convolutional layer এর মধ্য দিয়ে যেয়ে আর একটা complex pattern make করে তারপর আরেকটা convolutional layer এর মধ্য দিয়ে যেয়ে আরেকটু complex pattern তৈরি করার মাধ্যমে কোন ছবিকে identify করে ।  This process is called feature extraction । `
 
@@ -79,6 +79,6 @@
 
 # Roadmap:
 
-![Alt text](image-234.png)
+![Alt text](img/image-234.png)
 
 
