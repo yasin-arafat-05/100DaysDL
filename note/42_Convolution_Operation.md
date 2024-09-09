@@ -7,17 +7,17 @@
 
 ### Recap:
 
-![Alt text](image-237.png)
+![Alt text](img/image-237.png)
 
 
 # Basic of Images:
 
-![Alt text](image-238.png)
+![Alt text](img/image-238.png)
 
 `আমরা মূলত দুই ধরনের Image নিয়ে কাজ করি । i) Gray-scale image (black&white) ii) RGB_Colored Image । Image হচ্ছে pixel or grid নিয়ে তৈরি (28x28) resolution এর image mean (28x28) 2D matrix or grid । আর প্রত্যেকটা grid একটা ভ্যালু থাকে । In a grayscale image, the pixel values typically range from 0 to 255, where 0 represents black and 255 represents white । আর আমাদের কম্পিউটার একে 2D array বা numpy array হিসেবে store করে ।  Gray-scale image এ একটা মাত্র channel থাকে । `
 
 
-![Alt text](image-240.png)
+![Alt text](img/image-240.png)
 
 
 `অন্যদিকে RGB image এ তিনটা channel থাকে (Red,Green,Blue) । In an RGB (Red, Green, Blue) image, each pixel contains three color channels: one for red intensity, one for green intensity, and one for blue intensity. Each of these channels typically ranges from 0 to 255, where 0 represents no intensity (black) and 255 represents full intensity (full color).`
@@ -25,11 +25,11 @@
 
 # Edge Detection (Convolution Operation:)
 
-![Alt text](image-241.png)
+![Alt text](img/image-241.png)
 
 `Edge হচ্ছে যেখানে, intensity অনেক পরির্তন হয় । যেমনঃ কোন মানুষের ছবির চুল আর মুখের transition point । উপরের ছবিতে আমরা ১ম ছবিরটীর Edge Detection করেছি । ২য় ছবিটি হলো ১ম ছবিটির vertial Edge Detection ৩য় ছবিটি হলো  ১ম ছবিটির horizontal Edge Detection । Mathematically, এই কাজ টা কীভাবে করে তা আমরা নিচে দেখবোঃ   `
 
-![Alt text](image-242.png)
+![Alt text](img/image-242.png)
 
 `উপরের ছবিতে আমরা, Edge detection (pixel value intensity change, 0-> means black color 1-> white color) । 3x3  or any oddxodd dimention এর matrix  হলো  filter/kernal ছবিতে যেই kernal দেখানো হয়েছে সেটা দিয়ে horizontal edge dectect করা যায় । তারপর আমরা  image matrix এ kernal টি convolve (আমরা পরে দেখবো কীভাবে এই convolution operation কাজ করে) করার পর আমরা যেই result পায় তাকে বলে Feature Map ।  `
 
@@ -99,13 +99,13 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 
 ### `Observe the horizontal Edge Dector: `
 
-![Alt text](image-243.png)
+![Alt text](img/image-243.png)
 
 ### `Observe the vertical Edge Dector:  `
 
 (filter for vertical edge dector)
 
-![Alt text](image-244.png)
+![Alt text](img/image-244.png)
 
 `In deep learing, we fill the filter value randomly তারপর এই filter এর উপর backpoprogation কাজ করে কেমন output দিবে তা নিজেই decide করে । `
 
@@ -114,15 +114,15 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 
 ## Shape of the output:
 
-![Alt text](image-245.png)
+![Alt text](img/image-245.png)
 
 
 # Working with RGB image:
 
-![Alt text](image-246.png)
+![Alt text](img/image-246.png)
 
 
-![Alt text](image-247.png)
+![Alt text](img/image-247.png)
 
 
 ` এখানে, আমরা একটা RGB image এ filter/kernal দিয়ে convolve করলে feature map এর আউটপুট পাই 1 Channel এর ।  `
@@ -132,7 +132,7 @@ output = cv2.filter2D(src,depth,kernel,anchor,border_type) <br>
 
 ` Normally, আমরা একের অধিক Filters ব্যবহার করি । যেমনঃ একটা Filter  horizonal edge dectect করার জন্য অন্য আরেকটা Filter vertical edge dectect করার জন্য ।  `
 
-![Alt text](image-248.png)
+![Alt text](img/image-248.png)
 
 `আমাদের কাছে যত গুলো Filter থাকবে আমরা তত গুলো আমরা তত গুলো  feature map  পাবো । উপরের ছবিতে আমাদের দুইটা Filter আছে আমরা তাই দুইটা feature map পাবো । এই feature map দুটোকে আবার 4x4x2 হিসেবে চিন্তা করা যায় । এই 4x4x2 পরবর্তী layer এ  input হিসেবে কাজ করবে, এখানে, দুই হচ্ছে number of filter ।`
 
