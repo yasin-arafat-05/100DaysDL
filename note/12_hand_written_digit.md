@@ -21,5 +21,5 @@
 <br>
 
 
-![Alt text](image-51.png)
+![Alt text](img/image-51.png)
 
