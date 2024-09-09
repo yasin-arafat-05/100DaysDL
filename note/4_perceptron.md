@@ -145,6 +145,7 @@ To determine the perceptron value the mathematical formula is,
 Y = f(∑wi*xi + b).
 
 <br>
+<br>
 
 ![Alt text](img/image-10.png)
 
