@@ -12,11 +12,11 @@
 
 A human brain has billions of neurons. Neurons are interconnected nerve cells(neurons) in the human brain that are involved in processing and transmitting chemical and electrical signals. Dendrites are branches that receive information from other neurons.
 
-![Alt text](image.png)
+![Alt text](img/image.png)
 
 						Fig: Biological Neuron
 
-![Alt text](image-1.png)
+![Alt text](img/image-1.png)
 
 					Fig: Connection of Two Neurons 
 
@@ -34,20 +34,20 @@ Researchers Warren McCullock and Walter Pitts published their first concept of s
 An artificial neuron is a mathematical function based on a model of biological neurons, where each neuron takes inputs, weighs them separately, sums them up and passes this sum through a nonlinear function to produce output.
 
 
-![Alt text](image-2.png)
+![Alt text](img/image-2.png)
 
 
 ### Biological Neuron vs. Artificial Neuron:
 
 
-![Alt text](image-3.png)
+![Alt text](img/image-3.png)
 
 
 # Perceptron:
 
 Perceptron was introduced by Frank Rosenblatt in 1957. He proposed a Perceptron learning rule based on the original MCP neuron. A Perceptron is an algorithm for supervised learning of binary classifiers. This algorithm enables neurons to learn and process elements in the training set one at a time.
 
-![Alt text](image-4.png)
+![Alt text](img/image-4.png)
 
 					Fig: Perceptron
 
@@ -57,7 +57,7 @@ Perceptron was introduced by Frank Rosenblatt in 1957. He proposed a Perceptron 
 
 - **Multilayer:** Multilayer perceptrons can learn about two or more layers having a greater processing power.
 
-![Alt text](image-5.png)
+![Alt text](img/image-5.png)
 
 				Fig: (a) Single Layer Perceptron
 				Fig: (b) Multi layer Perceptron
@@ -94,7 +94,7 @@ In Mathematics, a step function (also called a staircase function) is defined as
 Example: 
 Draw a graph of the step function:
 
-![Alt text](image-6.png)
+![Alt text](img/image-6.png)
 
 Solution:
 
@@ -110,7 +110,7 @@ x > 1 means the values of x = 1, 2, 3, 4, …..
 
 By plotting these values on a graph paper, the below graph will be obtained.
 
-![Alt text](image-7.png)
+![Alt text](img/image-7.png)
 
 The above graph is viewed as a group of steps and hence it is also called a step function graph. The left endpoint in every step is blocked(dark dot) to show that the point is a member of the graph, and the other right end arrow indicates that the values are infinite. That means only definite values are shown with dark dots.
 
@@ -128,11 +128,11 @@ In, Supervised learning there are two categories of algorithms:
 
 Binary classification is a fundamental task in machine learning, where the goal is to categorize data into one of two classes or categories.
 
-![Alt text](image-8.png)
+![Alt text](img/image-8.png)
 
 		Fig: Binary Classification
 
-![Alt text](image-9.png)
+![Alt text](img/image-9.png)
 
 		Fig: Multi Classification
 
@@ -146,7 +146,7 @@ Y = f(∑wi*xi + b).
 
 <br>
 
-![Alt text](image-10.png)
+![Alt text](img/image-10.png)
 
 <br>
 Now, replace W1 = A, W2 = B , b = c and X1 =x , Y1 = y we get a linear equation. Then, we make a
