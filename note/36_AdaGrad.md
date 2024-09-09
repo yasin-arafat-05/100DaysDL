@@ -8,7 +8,7 @@
 ---
 
 
-![Alt text](image-208.png)
+![Alt text](img/image-208.png)
 
 `AdaGrad-> Adaptive Gradient । সময়ের সাথে সাথে learning rate change হয় বা learning rate নিজেকে adopt করে । AdaGrad আমরা ব্যবহার করবোঃ `
 
@@ -18,11 +18,11 @@
 
 #### `Feature, sparse  হলে Elongated Bowl Problem  দেখা দেয় । `
 
-![Alt text](image-209.png)
+![Alt text](img/image-209.png)
 
 `Feature, sparse হলে আমাদের contour plot, circle এর পরির্বতে একটু ellipse আকারের হয়ে থাকে। `
 
-![Alt text](image-210.png)
+![Alt text](img/image-210.png)
 
 `উপরের ছবি গুলো 3D । আমাদের ডাটাসেটে এমন ভ্যালু হলে এক axis এ solpe change হয় অন্য axis এ solpe change হয় না। এই সমস্যাকে solve করে AdaGrad । `
 
@@ -30,39 +30,39 @@
 
 ` (BGD) `
 
-![Alt text](image-211.png)
+![Alt text](img/image-211.png)
 
 `Momentum Optimizer (decay = 0.5 )`
 
-![Alt text](image-212.png)
+![Alt text](img/image-212.png)
 
 ### ` দুই ক্ষেত্রে, contour plot দেখলে আমরা বুঝতে পারবো আমাদের এর থেকে optimize way খুঁজে বের করা সম্ভব । `
 
-![Alt text](image-213.png)
+![Alt text](img/image-213.png)
 
 `M তে sparse value আছে আর B তে নেই তেমন । শুরুতে, যেইদিকে( M  তে ) sparse value আছে সেইদিকের axis এ solpe change হয় না তেমন । কিন্তু, শুরুতে, যেইদিকে( B  তে ) sparse value নেই সেইদিকের axis এ solpe change হয়েছে অনেক। `
 
-![Alt text](image-214.png)
+![Alt text](img/image-214.png)
 
 `Sparse data থাকার কারণে, BGD এর ক্ষেত্রে differentiation করলে অনেক বার শূন্যের কাছাকাছি মান আসবে । অন্যদিকে, bias এর ক্ষেত্রে তা হবে না তাই bias update অনেক বেশি হবে ।  `
 
 
 # Mathematical Intution (AdaGrad):
 
-![Alt text](image-215.png)
+![Alt text](img/image-215.png)
 
 `আমরা দেখলাম যে, Sparse data থাকার কারণে, একটার differentiation অনেক ছোট হয় আর আরেকপাশের differentiation অনেক বড় হয় । এই সমস্যার সমাধান করে AdaGrad । কারণ, AdaGrad এ learning rate change হয় । যখন আমাদের derivative অনেক বড় হয় তখন learning rate ছোট হয়, আবার যখন, আমাদের derivative ছোট হয় তখন আমাদের learning rate বড় হয় । এইভাবে AdaGrad, learning rate change করার মাধ্যমে Sparse data থাকার কারণে যে সমস্যা হয় তার সমাধান করে । `
 
-![Alt text](image-216.png)
+![Alt text](img/image-216.png)
 
 
 `Actually, Formula.  `
 
-![Alt text](image-217.png)
+![Alt text](img/image-217.png)
 
 # Disadvantage of Adagrad:
 
-![Alt text](image-218.png)
+![Alt text](img/image-218.png)
 
 `AdaGrad কে আমরা একটা নাম্বার v_t(exponentially weighted moving average) দিয়ে ভাগ দেই । আমরা যত global minima এর দিকে যায় তত v_t এর মান বাড়তে থাকে(V_t calculation এর সময় আমরা আগের V_t এর সাথে সাথে Loss function এর square যোগ করি তাই সময়ের সাথে সাথে v_t বাড়ে) ।  ফলে learning rate কমতে থাকে, Weight update এর পরিমাণ ও ধীরে ধীরে কমতে থাকে । `
 
