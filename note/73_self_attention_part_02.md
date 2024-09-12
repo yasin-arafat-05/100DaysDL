@@ -25,7 +25,7 @@
 <br>
 <br>
 
-`আমাদের general ontextual embedding এ যার text vectorization করবো সেইটা ৩টা আলাদা আলাদা role পালন করেতেছে {ছবিতে প্রথম diagram এ e_money, query, key,value} । e_money_query (e_money,e_bank,e_grows) কে করছে তাদের মধ্যে কত । (e_money,e_bank,e_grows) উত্তর দিচ্ছে । আর কি উত্তর দিচ্ছে সেইটা আছে e_key গুলোতে ।  `
+`আমাদের general textual embedding এ যার text vectorization করবো সেইটা ৩টা আলাদা আলাদা role পালন করেতেছে {ছবিতে প্রথম diagram এ e_money, query, key,value হিসেবে role পালন করতেছে }  । e_money_query হিসেবে (e_money,e_bank,e_grows) কে ask করছে তাদের মধ্যে e_meoney এর সাথে similarity কত । (e_money,e_bank,e_grows) উত্তর দিচ্ছে । আর কি উত্তর দিচ্ছে সেইটা আছে e_key গুলোতে ।  `
 
 <br>
 
