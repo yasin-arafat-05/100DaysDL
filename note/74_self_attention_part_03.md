@@ -128,4 +128,43 @@ Where:
 ![image_21](photo/image21.png)
 
 
+<br>
+<br>
 
+# `# Let's see the relation between Dimention and Variance `
+
+<br>
+<br>
+
+![image_22](photo/image24.png)
+
+<br>
+
+`ধরি, আমাদের কাছে এর 1টা (3x1) এবং (1x1) এর একটা matrix আছে যাদের গুন করার ফলে আমরা যেই আউটপুট ম্যাট্রিক্স পাবো তার আউটপূটের variance , var(x) । এখন, যদি Dimention বেড়ে আমাদের (3x2) এবং (2x1) হয় এদের গুন করার ফলে আমরা যেই আউটপুট ম্যাট্রিক্স পাবো তার আউটপূটের variance, var(y) হলে, var(x) নাকি var(y) বেশি হবে ? From, the picture we can say that var(y) এর variance বেশি হবে ।  আর এইটা  var(y)  apporaximately 2 *  var(x) হবে । `
+
+<br>
+
+![image_22](photo/image22.png)
+
+<br>
+
+`যদি Dimention বেড়ে আমাদের (3x3) এবং (3x1) হয় এদের গুন করার ফলে আমরা যেই আউটপুট ম্যাট্রিক্স পাবো তার আউটপূটের variance, var(z) হলে, var(x) নাকি var(y) নাকি var(z)  বেশি হবে ? var(z)>var(y)>var(x) হয় । আমরা আরো বলতে পারি যে var(z) apporaximately 2 * var(x) হবে । `
+
+
+<br>
+
+![image_22](photo/image25.png)
+
+<br>
+
+`dimention বাড়ার সাথে সাথে, variance ও বাড়তেছে । কিন্তু, যদি  var(x) থাকে তাহলে সেইটা আমাদের জন্য ভালো ।  `
+
+<br>
+
+# `# In mathematically, the relation of var(x) with dimention`
+
+![image_22](photo/image23.png)
+
+`যদি আমাদের দুই কোন `
+
+ 
