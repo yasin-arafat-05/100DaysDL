@@ -112,6 +112,20 @@ Where:
 
 <br>
 
+---
+
+<br>
+
+
+# `# Hense, our problem statement is to reduce: high variance.`
+
+<br>
+
+---
+
+`নিচের ছবিতে আমরা কাছে একটা  array আছে বড় সংখ্যা হওয়ার কারণে high variance পেয়েছি । পরে আমরা ১০ দিয়ে ভাগ দেওয়ার কারণে variance কমে গিয়েছে । আমরা সেম কাজ করবো self attention এ কিন্তু ,এখন প্রশ্ন হচ্ছে যে, এখানে আমরা ১০ দিয়ে ভাগ করেছি, self attention এর ক্ষেত্রে আমাদের scaling factor কত হবে ? ,  `
+
+![image_21](photo/image21.png)
 
 
 
