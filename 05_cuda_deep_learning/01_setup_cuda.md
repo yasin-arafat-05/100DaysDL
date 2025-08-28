@@ -5,7 +5,7 @@
 
 - First, find the which NVIDA Gpu are we using.
 ```bash
-nvidia smi 
+nvidia-smi 
 ```
 - If not find the full name then go to **Device Manager** then **Display Adaptor** 
 
@@ -26,6 +26,8 @@ You will need anaconda to install all deep learning packages
 ## Step 4: CUDA Toolkit
 
  - [Download CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)
+
+ - [kon_cuda_driver_jono_kon_cuda_tooklit_namate_parbo](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html)
 
 ## Step 5: cuDNN
 
