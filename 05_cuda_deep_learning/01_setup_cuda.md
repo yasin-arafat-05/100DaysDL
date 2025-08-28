@@ -2,8 +2,16 @@
 
 ## Step 1: NVIDIA Video Driver
 
+
+- First, find the which NVIDA Gpu are we using.
+```bash
+nvidia smi 
+```
+- If not find the full name then go to **Device Manager** then **Display Adaptor** 
+
 You should install the latest version of your GPUs driver. You can download drivers here:
  - [NVIDIA GPU Drive Download](https://www.nvidia.com/Download/index.aspx)
+
 
 ## Step 2: Visual Studio C++
 
